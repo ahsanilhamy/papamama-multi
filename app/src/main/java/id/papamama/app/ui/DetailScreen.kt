@@ -141,7 +141,7 @@ fun DetailScreen(
                         LinearProgressIndicator(
                             progress = { p.toFloat() },
                             modifier = Modifier.fillMaxWidth().height(8.dp).clip(RoundedCornerShape(50)),
-                            color = if (st.level.rank >= Level.WARN.rank) PM.Red else PM.Navy,
+                            color = if (p <= 0.20) PM.Red else PM.Navy,
                             trackColor = Color(0xFFE3E1F7),
                         )
                     }
