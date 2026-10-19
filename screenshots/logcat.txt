@@ -1,0 +1,553 @@
+--------- beginning of main
+10-19 17:12:34.299  5082  5082 W ChimeraUtils: Module com.google.android.gms.nearby missing resource null(0)
+10-19 17:12:34.306  5082  5082 D BluetoothAdapter: registerBluetoothConnectionCallback()
+10-19 17:12:34.308  5082  5082 I NearbyShared: BTConnStateMgr: BluetoothConnectionCallback registered.
+10-19 17:12:34.309  5082  5082 I NearbyFastPair: NearbyAppHelper: Check Mainline Tethering module version code. [CONTEXT service_id=265 ]
+10-19 17:12:34.316  5082  5082 I NearbyFastPair: NearbyAppHelper: Tethering package version code: 340818080 [CONTEXT service_id=265 ]
+--------- beginning of system
+10-19 17:12:34.322   521  1855 W ActivityManager: Unable to start service Intent { act=com.google.android.gms.home.service.START pkg=com.google.android.gms } U=0: not found
+10-19 17:12:34.322   521  1855 W ActivityManager: Unbind failed: could not find connection for android.os.BinderProxy@c97f0ec
+10-19 17:12:34.322  5082  5109 W GmsClient: unable to connect to service: com.google.android.gms.home.service.START on com.google.android.gms
+10-19 17:12:34.327  5176  5240 I Icing   : Storage manager: low false usage 1.58MB avail 4.87GB capacity 5.80GB
+10-19 17:12:34.327  5082  5106 I NearbyFastPair: DynamicSupportModule: onSupportStateUpdate start [CONTEXT service_id=265 ]
+10-19 17:12:34.328  5082  5106 I NearbyFastPair: DynamicSupportModule: onSupportStateUpdate end [CONTEXT service_id=265 ]
+10-19 17:12:34.328  5082  5106 I NearbyFastPair: DynamicSupportModule: onSupportStateUpdate start [CONTEXT service_id=265 ]
+10-19 17:12:34.328  5082  5106 I NearbyFastPair: DynamicSupportModule: onSupportStateUpdate end [CONTEXT service_id=265 ]
+10-19 17:12:34.329  5082  5236 I NearbyDiscovery: FastPair: HeadsetPieceImage, grant permission files:0 [CONTEXT service_id=265 ]
+10-19 17:12:34.329  5082  5236 I NearbyDiscovery: FastPairController: Skip event stream initialization, fast pair is disabled [CONTEXT service_id=265 ]
+10-19 17:12:34.331  5082  5211 I Nearby  : is blocked device type false, isAuto=false, isIot=false, isLatchsky=false, isChinaWearable=false, isTv=false, isWearable=false (supportWearOs=false), isChromeOsDevice=false (supportChromeOs=false) [CONTEXT service_id=49 ]
+10-19 17:12:34.343  5176  5176 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.wallet.service.BIND pkg=com.google.android.gms }
+10-19 17:12:34.344  5176  5176 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.wallet.service.BIND pkg=com.google.android.gms }
+10-19 17:12:34.347  5082  5164 I Nearby  : is blocked device type false, isAuto=false, isIot=false, isLatchsky=false, isChinaWearable=false, isTv=false, isWearable=false (supportWearOs=false), isChromeOsDevice=false (supportChromeOs=false) [CONTEXT service_id=49 ]
+10-19 17:12:34.349  5082  5082 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.tapandpay.service.BIND dat=chimera-action:/... cmp=com.google.android.gms/.chimera.PersistentApiService }
+10-19 17:12:34.349  5082  5082 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.tapandpay.service.BIND dat=chimera-action:/... cmp=com.google.android.gms/.chimera.PersistentApiService }
+10-19 17:12:34.352  5082  5164 I Nearby  : is blocked device type false, isAuto=false, isIot=false, isLatchsky=false, isChinaWearable=false, isTv=false, isWearable=false (supportWearOs=false), isChromeOsDevice=false (supportChromeOs=false) [CONTEXT service_id=49 ]
+10-19 17:12:34.360  5176  5176 D BoundBrokerSvc: onBind: Intent { act=com.google.android.mobstore.service.START pkg=com.google.android.gms }
+10-19 17:12:34.360  5176  5176 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.mobstore.service.START pkg=com.google.android.gms }
+10-19 17:12:34.362  5176  5176 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.asterism.service.START pkg=com.google.android.gms }
+10-19 17:12:34.362  5176  5176 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.asterism.service.START pkg=com.google.android.gms }
+10-19 17:12:34.364  5176  5176 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.pay.service.BIND dat=chimera-action:/... cmp=com.google.android.gms/.chimera.GmsApiService }
+10-19 17:12:34.364  5082  5119 I GCoreUlr: WorldUpdater received intent Intent { act=com.google.android.location.reporting.ACTION_UPDATE_WORLD cmp=com.google.android.gms/com.google.android.location.reporting.service.DispatchingService (has extras) } with receiverAction android.location.PROVIDERS_CHANGED
+10-19 17:12:34.365  5176  5176 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.pay.service.BIND dat=chimera-action:/... cmp=com.google.android.gms/.chimera.GmsApiService }
+10-19 17:12:34.369  5082  5236 I Nearby  : is blocked device type false, isAuto=false, isIot=false, isLatchsky=false, isChinaWearable=false, isTv=false, isWearable=false (supportWearOs=false), isChromeOsDevice=false (supportChromeOs=false) [CONTEXT service_id=49 ]
+10-19 17:12:34.374  4696  5081 V ClearcutMetricXmitter: Transmission is done.
+10-19 17:12:34.374  4696  5081 V ClearcutMetricXmitter: Transmission is done.
+10-19 17:12:34.375  5082  5119 I GCoreUlr: WorldUpdater:android.location.PROVIDERS_CHANGED: Ensuring that reporting is stopped because of reasons: (no Google accounts)
+10-19 17:12:34.376  5082  5119 I GCoreUlr: Unbound from all signal providers.
+10-19 17:12:34.377  5082  5236 I NearbyDiscovery: DiscoveryController, showNotification, itemSize=0 [CONTEXT service_id=265 ]
+10-19 17:12:34.378  5082  5236 I NearbyDiscovery: Show notifications: 0 total, no changes since last shown, no-op. [CONTEXT service_id=265 ]
+10-19 17:12:34.379  5176  5176 D CompatibilityChangeReporter: Compat change id reported: 263076149; UID 10131; state: DISABLED
+10-19 17:12:34.382  5082  5107 I NearbyShared: FastPairSlice: enableBindServiceForDiscoveryItem called, isBind = false
+10-19 17:12:34.385  5176  5240 I native  : I0000 00:00:1792429954.385543    5240 permission-checker.cc:82] Creating PermissionChecker based on ACL with config_version 1 having 12 permissions defined.
+10-19 17:12:34.385  5176  5176 D BoundBrokerSvc: onBind: Intent { act=com.google.android.mdh.service.START dat=chimera-action:/... cmp=com.google.android.gms/.chimera.GmsBoundBrokerService }
+10-19 17:12:34.386  5176  5176 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.mdh.service.START dat=chimera-action:/... cmp=com.google.android.gms/.chimera.GmsBoundBrokerService }
+10-19 17:12:34.390  5176  5240 W native  : W0000 00:00:1792429954.385974    5240 words-map.cc:36] INVALID_ARGUMENT: Empty URI
+10-19 17:12:34.391  5176  5240 W native  : W0000 00:00:1792429954.391071    5240 words-map.cc:40] WordsMap was not properly initialized
+10-19 17:12:34.393  5176  5176 D BoundBrokerSvc: onBind: Intent { act=com.google.android.mdh.service.listener.START dat=chimera-action:/... cmp=com.google.android.gms/.chimera.GmsBoundBrokerService }
+10-19 17:12:34.394  5176  5176 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.mdh.service.listener.START dat=chimera-action:/... cmp=com.google.android.gms/.chimera.GmsBoundBrokerService }
+10-19 17:12:34.394  5082  5119 I GCoreUlr: WorldUpdater received intent Intent { act=com.google.android.location.reporting.ACTION_UPDATE_WORLD cmp=com.google.android.gms/com.google.android.location.reporting.service.DispatchingService (has extras) } with receiverAction android.location.PROVIDERS_CHANGED
+10-19 17:12:34.395  5176  5176 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.findmydevice.spot.service.management.START dat=chimera-action:/... cmp=com.google.android.gms/.chimera.GmsApiService }
+10-19 17:12:34.396  5176  5176 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.findmydevice.spot.service.management.START dat=chimera-action:/... cmp=com.google.android.gms/.chimera.GmsApiService }
+10-19 17:12:34.397  5082  5119 I GCoreUlr: WorldUpdater:android.location.PROVIDERS_CHANGED: Ensuring that reporting is stopped because of reasons: (no Google accounts)
+10-19 17:12:34.397  5082  5119 I GCoreUlr: Unbound from all signal providers.
+10-19 17:12:34.399  5176  5213 I Icing   : Using regular flags by method 2
+10-19 17:12:34.401  5176  5176 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.findmydevice.spot.service.locationreport.START dat=chimera-action:/... cmp=com.google.android.gms/.chimera.GmsApiService }
+10-19 17:12:34.401  5176  5176 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.findmydevice.spot.service.locationreport.START dat=chimera-action:/... cmp=com.google.android.gms/.chimera.GmsApiService }
+10-19 17:12:34.401  5176  5176 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.chimera.container.moduleinstall.ModuleInstallService.START dat=chimera-action:/... cmp=com.google.android.gms/.chimera.GmsApiService }
+10-19 17:12:34.402  5176  5176 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.chimera.container.moduleinstall.ModuleInstallService.START dat=chimera-action:/... cmp=com.google.android.gms/.chimera.GmsApiService }
+10-19 17:12:34.402  5082  5082 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.icing.LIGHTWEIGHT_INDEX_SERVICE dat=chimera-action:/... cmp=com.google.android.gms/.chimera.PersistentApiService }
+10-19 17:12:34.402  5082  5082 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.icing.LIGHTWEIGHT_INDEX_SERVICE dat=chimera-action:/... cmp=com.google.android.gms/.chimera.PersistentApiService }
+10-19 17:12:34.402  5176  5214 I NearbyDiscovery: FastPairSlice: Created under nearby module. [CONTEXT service_id=265 ]
+10-19 17:12:34.407  5082  5119 I GCoreUlr: WorldUpdater received intent Intent { act=com.google.android.location.reporting.ACTION_UPDATE_WORLD cmp=com.google.android.gms/com.google.android.location.reporting.service.DispatchingService (has extras) } with receiverAction com.google.android.location.internal.server.ACTION_RESTARTED
+10-19 17:12:34.408  5176  5176 D BoundBrokerSvc: onBind: Intent { act=com.google.android.mdd.service.START dat=chimera-action:/... cmp=com.google.android.gms/.chimera.GmsBoundBrokerService }
+10-19 17:12:34.410  5176  5176 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.mdd.service.START dat=chimera-action:/... cmp=com.google.android.gms/.chimera.GmsBoundBrokerService }
+10-19 17:12:34.417  5082  5119 I GCoreUlr: WorldUpdater:com.google.android.location.internal.server.ACTION_RESTARTED: Ensuring that reporting is stopped because of reasons: (no Google accounts)
+10-19 17:12:34.417  5082  5110 I SemanticLocation: [MDD] ModelBundleMetadata: File not found [CONTEXT service_id=173 ]
+10-19 17:12:34.417  5082  5110 I SemanticLocation: java.io.FileNotFoundException: /data/user/0/com.google.android.gms/files/model_bundle_metadata.pb: open failed: ENOENT (No such file or directory)
+10-19 17:12:34.417  5082  5110 I SemanticLocation: 	at libcore.io.IoBridge.open(IoBridge.java:574)
+10-19 17:12:34.417  5082  5110 I SemanticLocation: 	at java.io.FileInputStream.<init>(FileInputStream.java:160)
+10-19 17:12:34.417  5082  5110 I SemanticLocation: 	at android.app.ContextImpl.openFileInput(ContextImpl.java:745)
+10-19 17:12:34.417  5082  5110 I SemanticLocation: 	at android.content.ContextWrapper.openFileInput(ContextWrapper.java:249)
+10-19 17:12:34.417  5082  5110 I SemanticLocation: 	at android.content.ContextWrapper.openFileInput(ContextWrapper.java:249)
+10-19 17:12:34.417  5082  5110 I SemanticLocation: 	at android.content.ContextWrapper.openFileInput(ContextWrapper.java:249)
+10-19 17:12:34.417  5082  5110 I SemanticLocation: 	at bzxt.h(:com.google.android.gms@231818047@23.18.18 (190800-535401451):1)
+10-19 17:12:34.417  5082  5110 I SemanticLocation: 	at bzxd.c(:com.google.android.gms@231818047@23.18.18 (190800-535401451):9)
+10-19 17:12:34.417  5082  5110 I SemanticLocation: 	at bzxd.<init>(:com.google.android.gms@231818047@23.18.18 (190800-535401451):0)
+10-19 17:12:34.417  5082  5110 I SemanticLocation: 	at cadn.j(:com.google.android.gms@231818047@23.18.18 (190800-535401451):0)
+10-19 17:12:34.417  5082  5110 I SemanticLocation: 	at cadn.h(:com.google.android.gms@231818047@23.18.18 (190800-535401451):36)
+10-19 17:12:34.417  5082  5110 I SemanticLocation: 	at cadn.b(:com.google.android.gms@231818047@23.18.18 (190800-535401451):0)
+10-19 17:12:34.417  5082  5110 I SemanticLocation: 	at com.google.android.gms.semanticlocation.service.SemanticLocationChimeraService.k(:com.google.android.gms@231818047@23.18.18 (190800-535401451):9)
+10-19 17:12:34.417  5082  5110 I SemanticLocation: 	at com.google.android.gms.semanticlocation.service.SemanticLocationChimeraService.h(:com.google.android.gms@231818047@23.18.18 (190800-535401451):17)
+10-19 17:12:34.417  5082  5110 I SemanticLocation: 	at cacs.run(:com.google.android.gms@231818047@23.18.18 (190800-535401451):68)
+10-19 17:12:34.417  5082  5110 I SemanticLocation: 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:487)
+10-19 17:12:34.417  5082  5110 I SemanticLocation: 	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+10-19 17:12:34.417  5082  5110 I SemanticLocation: 	at aced.c(:com.google.android.gms@231818047@23.18.18 (190800-535401451):6)
+10-19 17:12:34.417  5082  5110 I SemanticLocation: 	at aced.run(:com.google.android.gms@231818047@23.18.18 (190800-535401451):8)
+10-19 17:12:34.417  5082  5110 I SemanticLocation: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+10-19 17:12:34.417  5082  5110 I SemanticLocation: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+10-19 17:12:34.417  5082  5110 I SemanticLocation: 	at acjn.run(:com.google.android.gms@231818047@23.18.18 (190800-535401451):0)
+10-19 17:12:34.417  5082  5110 I SemanticLocation: 	at java.lang.Thread.run(Thread.java:1012)
+10-19 17:12:34.417  5082  5110 I SemanticLocation: Caused by: android.system.ErrnoException: open failed: ENOENT (No such file or directory)
+10-19 17:12:34.417  5082  5110 I SemanticLocation: 	at libcore.io.Linux.open(Native Method)
+10-19 17:12:34.417  5082  5110 I SemanticLocation: 	at libcore.io.ForwardingOs.open(ForwardingOs.java:563)
+10-19 17:12:34.417  5082  5110 I SemanticLocation: 	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:274)
+10-19 17:12:34.417  5082  5110 I SemanticLocation: 	at libcore.io.ForwardingOs.open(ForwardingOs.java:563)
+10-19 17:12:34.417  5082  5110 I SemanticLocation: 	at android.app.ActivityThread$AndroidOs.open(ActivityThread.java:8063)
+10-19 17:12:34.417  5082  5110 I SemanticLocation: 	at libcore.io.IoBridge.open(IoBridge.java:560)
+10-19 17:12:34.417  5082  5110 I SemanticLocation: 	... 22 more
+10-19 17:12:34.418  5082  5119 I GCoreUlr: Unbound from all signal providers.
+10-19 17:12:34.430  5082  5082 I GCoreUlr: Unbound from all signal providers.
+10-19 17:12:34.431  5082  5082 I GCoreUlr: Stopping handler for UlrDispSvcFast
+10-19 17:12:34.435  5176  5214 D CompatibilityChangeReporter: Compat change id reported: 3400644; UID 10131; state: DISABLED
+10-19 17:12:34.439  5176  5214 I FastPair: ServiceBindHelper.onSlicePinned, pin slice, uri = content://com.google.android.gms.nearby.fastpair/method_bind_service_for_discovery_item?is_bind=false
+10-19 17:12:34.454  5082  5177 I NearbySharing: A new client has bound to the NearbySharingService ClientBridge for calling package com.google.android.gms [CONTEXT service_id=194 ]
+10-19 17:12:34.461  5176  5277 I Auth    : [SupervisedAccountIntentOperation] onHandleIntent(): com.google.android.gms.chimera.container.CONTAINER_UPDATED
+10-19 17:12:34.465  5176  5240 I Icing   : updateResources: need to parse arkh{com.google.android.gms}
+10-19 17:12:34.467  5176  5176 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.feedback.internal.IFeedbackService dat=chimera-action:/... cmp=com.google.android.gms/.chimera.GmsBoundBrokerService }
+10-19 17:12:34.468  5176  5176 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.feedback.internal.IFeedbackService dat=chimera-action:/... cmp=com.google.android.gms/.chimera.GmsBoundBrokerService }
+10-19 17:12:34.477  5176  5277 I Auth    : [SupervisedAccountIntentOperation] This operation is disabled
+10-19 17:12:34.478  5176  5277 I BlockstoreModuleInit: Container update. Module updated: true [CONTEXT service_id=258 ]
+10-19 17:12:34.496  5176  5232 I BlockstoreModuleInit: scheduleOneOffTaskIfAlreadyScheduled finished [CONTEXT service_id=258 ]
+10-19 17:12:34.523  5176  5282 V Backup  : [CustomDownloadSchedulingIO] Received Action: com.google.android.gms.chimera.container.CONTAINER_UPDATED
+10-19 17:12:34.524  5176  5282 V Backup  : [CustomDownloadSchedulingIO] listenToSetupWizardFinishedBroadcast or customBackupDownloadEnableSuwTriggerWithGmsUpdateCheck flag on
+10-19 17:12:34.524  5176  5282 V Backup  : [CustomDownloadSchedulingIO] Flag to run custom backup downloads is off.
+10-19 17:12:34.525  5176  5282 V Backup  : [ShowPhotosNotifIO] Flag not enabled; returning.
+10-19 17:12:34.525  5176  5277 V Backup  : [G1ModuleInitIntentOperation] Running restore operation is disabled by flag
+10-19 17:12:34.527  5176  5275 I SyncIntentOperation: Handling the intent: Intent { act=com.google.android.gms.chimera.container.CONTAINER_UPDATED pkg=com.google.android.gms cmp=com.google.android.gms/.chimera.GmsIntentOperationService }. [CONTEXT service_id=80 ]
+10-19 17:12:34.529  5176  5295 I BlockstoreModuleInit: cloudRestoreSourceId cleared [CONTEXT service_id=258 ]
+10-19 17:12:34.532  5176  5277 I ChimeraConfigurator: Starting update, reason: 4 urgentFeatures: tflite_dynamite:-1, maps_core:-1, mlkit.ocr.common:1, mlkit.barcode.ui:0, vision.ocr:-1
+10-19 17:12:34.536   334  5304 I resolv  : GetAddrInfoHandler::run: {100 786532 100 983140 10131 0}
+10-19 17:12:34.539   334  5308 I resolv  : res_nmkquery: (QUERY, IN, A)
+10-19 17:12:34.541   334  5307 I resolv  : res_nmkquery: (QUERY, IN, AAAA)
+10-19 17:12:34.547  5176  5230 I Icing   : IndexChimeraService.getServiceInterface callingPackage=com.google.android.gms componentName=null serviceId=30
+10-19 17:12:34.550  5176  5277 W ConfigFileUtils: Failed to read asset ChimeraModuleSetList.pb: java.io.FileNotFoundException: ChimeraModuleSetList.pb
+10-19 17:12:34.551  5176  5275 I AppDoctorManager: Updating appdoctor Uri Permissions. [CONTEXT service_id=256 ]
+10-19 17:12:34.557  5176  5282 V Backup  : [GsfHelper] backup_enabled:com.android.calllogbackup : fetched from GSF: 0
+10-19 17:12:34.561  5176  5282 V Backup  : [GsfHelper] user_full_data_backup_aware : fetched from GSF: 0
+10-19 17:12:34.562  5176  5282 I Backup  : [CallLogFlagSetter] Whitelisted for call log backup, but not enabling because user_full_data_backup_aware not set.
+10-19 17:12:34.563   334  5308 I resolv  : res_nsend: used send_dg 111 terrno: 0
+10-19 17:12:34.563   334  5308 I resolv  : doQuery: rcode=0, ancount=4, return value=111
+10-19 17:12:34.566   334  5312 I resolv  : GetAddrInfoHandler::run: {100 786532 100 983140 10131 0}
+10-19 17:12:34.569   334  5314 I resolv  : res_nmkquery: (QUERY, IN, A)
+10-19 17:12:34.569   334  5314 I resolv  : resolv_cache_lookup: FOUND IN CACHE entry=0x7a01bd194b90
+10-19 17:12:34.569   334  5314 I resolv  : doQuery: rcode=0, ancount=8, return value=164
+10-19 17:12:34.572   334  5313 I resolv  : res_nmkquery: (QUERY, IN, AAAA)
+10-19 17:12:34.572   334  5313 I resolv  : resolv_cache_lookup: FOUND IN CACHE entry=0x7a028d1934d0
+10-19 17:12:34.572   334  5313 I resolv  : doQuery: rcode=0, ancount=8, return value=260
+10-19 17:12:34.575  5176  5176 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.common.BIND_SHARED_PREFS pkg=com.google.android.gms }
+10-19 17:12:34.575  5176  5176 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.common.BIND_SHARED_PREFS pkg=com.google.android.gms }
+10-19 17:12:34.576   334  5307 I resolv  : res_nsend: used send_dg 159 terrno: 0
+10-19 17:12:34.576   334  5307 I resolv  : doQuery: rcode=0, ancount=4, return value=159
+10-19 17:12:34.577  5176  5278 D TrafficStats: tagSocket(125) with statsTag=0x30001803, statsUid=-1
+10-19 17:12:34.577   334   374 E BpfHandler: Unsupported protocol: 1
+10-19 17:12:34.577  5176  5298 D TrafficStats: tagSocket(116) with statsTag=0x107, statsUid=-1
+10-19 17:12:34.577  5176  5278 I TrafficStats: tagSocketFd(125, 805312515, -1) failed with errno-93
+10-19 17:12:34.606  5176  5277 I ChimeraConfigurator: Detected pending changes for urgent request: [tflite_dynamite, maps_core, mlkit.ocr.common, mlkit.barcode.ui, vision.ocr]. Pending module sets: container:2318189190800+maps_core+mlkit.barcode.ui+mlkit.ocr.common+vision.barcode,tflite_dynamite:2627305025100800+tflite_dynamite,vision_ocr:2316024025100000+vision.ocr
+10-19 17:12:34.608  5176  5176 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.common.BIND_SHARED_PREFS pkg=com.google.android.gms }
+10-19 17:12:34.611  5176  5176 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.common.BIND_SHARED_PREFS pkg=com.google.android.gms }
+10-19 17:12:34.611  5176  5176 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.common.BIND_SHARED_PREFS pkg=com.google.android.gms }
+10-19 17:12:34.612  5176  5176 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.common.BIND_SHARED_PREFS pkg=com.google.android.gms }
+10-19 17:12:34.614  5176  5176 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.checkin.START pkg=com.google.android.gms }
+10-19 17:12:34.614  5176  5176 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.checkin.START pkg=com.google.android.gms }
+10-19 17:12:34.621  5176  5277 I DynamiteModule: Considering local module com.google.android.gms.cronet_dynamite:0 and remote module com.google.android.gms.cronet_dynamite:2411
+10-19 17:12:34.621  5176  5277 I DynamiteModule: Selected remote version of com.google.android.gms.cronet_dynamite, version >= 2411
+10-19 17:12:34.625  5176  5282 I SnapshotHandler: Unable to retrieve flag snapshot for com.google.android.gms.phenotype, using defaults.
+10-19 17:12:34.626  5082  5110 I SemanticLocation: [MDD] ModelBundleMetadata: File not found [CONTEXT service_id=173 ]
+10-19 17:12:34.626  5082  5110 I SemanticLocation: java.io.FileNotFoundException: /data/user/0/com.google.android.gms/files/model_bundle_metadata.pb: open failed: ENOENT (No such file or directory)
+10-19 17:12:34.626  5082  5110 I SemanticLocation: 	at libcore.io.IoBridge.open(IoBridge.java:574)
+10-19 17:12:34.626  5082  5110 I SemanticLocation: 	at java.io.FileInputStream.<init>(FileInputStream.java:160)
+10-19 17:12:34.626  5082  5110 I SemanticLocation: 	at android.app.ContextImpl.openFileInput(ContextImpl.java:745)
+10-19 17:12:34.626  5082  5110 I SemanticLocation: 	at android.content.ContextWrapper.openFileInput(ContextWrapper.java:249)
+10-19 17:12:34.626  5082  5110 I SemanticLocation: 	at android.content.ContextWrapper.openFileInput(ContextWrapper.java:249)
+10-19 17:12:34.626  5082  5110 I SemanticLocation: 	at android.content.ContextWrapper.openFileInput(ContextWrapper.java:249)
+10-19 17:12:34.626  5082  5110 I SemanticLocation: 	at bzxt.h(:com.google.android.gms@231818047@23.18.18 (190800-535401451):1)
+10-19 17:12:34.626  5082  5110 I SemanticLocation: 	at bzxd.c(:com.google.android.gms@231818047@23.18.18 (190800-535401451):9)
+10-19 17:12:34.626  5082  5110 I SemanticLocation: 	at cadb.run(:com.google.android.gms@231818047@23.18.18 (190800-535401451):0)
+10-19 17:12:34.626  5082  5110 I SemanticLocation: 	at aced.c(:com.google.android.gms@231818047@23.18.18 (190800-535401451):6)
+10-19 17:12:34.626  5082  5110 I SemanticLocation: 	at aced.run(:com.google.android.gms@231818047@23.18.18 (190800-535401451):8)
+10-19 17:12:34.626  5082  5110 I SemanticLocation: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+10-19 17:12:34.626  5082  5110 I SemanticLocation: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+10-19 17:12:34.626  5082  5110 I SemanticLocation: 	at acjn.run(:com.google.android.gms@231818047@23.18.18 (190800-535401451):0)
+10-19 17:12:34.626  5082  5110 I SemanticLocation: 	at java.lang.Thread.run(Thread.java:1012)
+10-19 17:12:34.626  5082  5110 I SemanticLocation: Caused by: android.system.ErrnoException: open failed: ENOENT (No such file or directory)
+10-19 17:12:34.626  5082  5110 I SemanticLocation: 	at libcore.io.Linux.open(Native Method)
+10-19 17:12:34.626  5082  5110 I SemanticLocation: 	at libcore.io.ForwardingOs.open(ForwardingOs.java:563)
+10-19 17:12:34.626  5082  5110 I SemanticLocation: 	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:274)
+10-19 17:12:34.626  5082  5110 I SemanticLocation: 	at libcore.io.ForwardingOs.open(ForwardingOs.java:563)
+10-19 17:12:34.626  5082  5110 I SemanticLocation: 	at android.app.ActivityThread$AndroidOs.open(ActivityThread.java:8063)
+10-19 17:12:34.626  5082  5110 I SemanticLocation: 	at libcore.io.IoBridge.open(IoBridge.java:560)
+10-19 17:12:34.626  5082  5110 I SemanticLocation: 	... 14 more
+10-19 17:12:34.633  5176  5268 I Vision  : Supported ABIS: [x86_64, arm64-v8a]
+10-19 17:12:34.640  5176  5277 W ziparchive: Unable to open '/data/user_de/0/com.google.android.gms/app_chimera/m/00000001/CronetDynamite.dm': No such file or directory
+10-19 17:12:34.643  5176  5284 W ModuleInitIntentOp: Dropping unexpected action com.google.android.gms.phenotype.COMMITTED
+10-19 17:12:34.643  5176  5284 W ModuleInitIntentOp: Dropping unexpected action com.google.android.gms.phenotype.COMMITTED
+10-19 17:12:34.647  5176  5286 W ModuleInitIntentOp: Dropping unexpected action com.google.android.gms.phenotype.COMMITTED
+10-19 17:12:34.647  5176  5286 I SyncIntentOperation: Handling the intent: Intent { act=com.google.android.gms.phenotype.COMMITTED flg=0x10 pkg=com.google.android.gms cmp=com.google.android.gms/.chimera.GmsIntentOperationService (has extras) }. [CONTEXT service_id=80 ]
+10-19 17:12:34.654  5176  5285 V Backup  : [PhenotypeConfigIO] Phenotype broadcast received for different package
+10-19 17:12:34.657  5176  5282 E PhenotypeRegOp: Attempting to overwrite config package for com.google.android.gms.games [CONTEXT service_id=231 ]
+10-19 17:12:34.657  5176  5282 E PhenotypeRegOp: Attempting to overwrite config package for com.google.android.gms.maps#com.google.android.gms [CONTEXT service_id=231 ]
+10-19 17:12:34.657  5176  5282 E PhenotypeRegOp: Attempting to overwrite config package for com.google.android.gms.cast [CONTEXT service_id=231 ]
+10-19 17:12:34.657  5176  5282 E PhenotypeRegOp: Attempting to overwrite config package for com.google.android.gms.mobile_data_plan [CONTEXT service_id=231 ]
+10-19 17:12:34.658  5176  5282 E PhenotypeRegOp: Attempting to overwrite config package for com.google.android.gms.udc [CONTEXT service_id=231 ]
+10-19 17:12:34.669  5176  5240 I Icing   : Internal init done: storage state 0
+10-19 17:12:34.688  5176  5287 I MlBenchmarkInstaller: Intent: com.google.android.gms.phenotype.COMMITTED [CONTEXT service_id=340 ]
+10-19 17:12:34.688  5176  5287 I MlBenchmarkInstaller: COMMITTED Extra package name: com.google.android.gms.platformconfigurator [CONTEXT service_id=340 ]
+10-19 17:12:34.690  5176  5240 I Icing   : Post-init done
+10-19 17:12:34.697  5176  5284 I MdiSyncModule: flag handling is skipping irrelevant intent.
+10-19 17:12:34.698  5176  5268 I LocationHistory: [IntentOperation] Handling action android.location.PROVIDERS_CHANGED [CONTEXT service_id=314 ]
+10-19 17:12:34.699  5176  5176 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.common.BIND_SHARED_PREFS pkg=com.google.android.gms }
+10-19 17:12:34.699  5176  5176 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.common.BIND_SHARED_PREFS pkg=com.google.android.gms }
+10-19 17:12:34.701  5176  5268 I LocationHistory: [IntentOperation] Device settings changed to ENABLED. Scheduling periodic tasks. [CONTEXT service_id=314 ]
+10-19 17:12:34.701  5176  5268 I SemanticLocation: [Scheduler] Periodic Task com.google.android.gms.semanticlocationhistory.deidentifieddata.storevisits.StoreVisitsProcessingService.StoreVisitsProcessing is scheduled to run EVERY_6_HOURS [CONTEXT service_id=173 ]
+10-19 17:12:34.715  5176  5285 I GmsSyncPolicyEngine: Periodic sync 1 disabled by policy, cancelled.
+10-19 17:12:34.715  5176  5297 I Icing   : IndexChimeraService.getServiceInterface callingPackage=com.google.android.gms componentName=AppsCorpus serviceId=32
+10-19 17:12:34.715  5176  5230 I Icing   : IndexChimeraService.getServiceInterface callingPackage=com.google.android.gms componentName=AppsCorpus serviceId=36
+10-19 17:12:34.715  5176  5325 I Icing   : IndexChimeraService.getServiceInterface callingPackage=com.google.android.gms componentName=ContactsIndexer serviceId=33
+10-19 17:12:34.725  5176  5285 I GmsSyncPolicyEngine: Periodic sync 2 disabled by policy, cancelled.
+10-19 17:12:34.726  5176  5268 I SemanticLocation: [Scheduler] Periodic Task com.google.android.gms.semanticlocationhistory.deidentifieddata.wifi.WifiPlaceVisitProcessingService.WifiPlaceVisit is scheduled to run EVERY_DAY [CONTEXT service_id=173 ]
+10-19 17:12:34.726  5176  5268 I SemanticLocation: [Scheduler] Periodic Task com.google.android.gms.semanticlocationhistory.deidentifieddata.uploads.BatchDeidentifiedDataUploadService.BatchDeidentifiedDataUpload is scheduled to run EVERY_6_HOURS [CONTEXT service_id=173 ]
+10-19 17:12:34.728  5176  5268 I SemanticLocation: [Scheduler] Periodic Task com.google.android.gms.semanticlocationhistory.geller.GellerCleanupService.GellerCleanup is scheduled to run EVERY_DAY [CONTEXT service_id=173 ]
+10-19 17:12:34.731  5176  5285 I GmsSyncPolicyEngine: Periodic sync 3 disabled by policy, cancelled.
+10-19 17:12:34.732  5176  5176 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.common.BIND_SHARED_PREFS pkg=com.google.android.gms }
+10-19 17:12:34.734  5176  5268 I SemanticLocation: [Scheduler] Periodic Task com.google.android.gms.semanticlocationhistory.settings.LocationHistoryActiveProcessingService.LocationHistoryActiveProcessing is scheduled to run EVERY_DAY [CONTEXT service_id=173 ]
+10-19 17:12:34.736  5176  5276 I EnterpriseLoader: [ConditionsChecker] ZT config not present. [CONTEXT service_id=225 ]
+10-19 17:12:34.736  5176  5276 I SnapshotHandler: Unable to retrieve flag snapshot for com.google.android.gms.esim#com.google.android.gms, using defaults.
+10-19 17:12:34.737  5176  5276 I EsimModuleInit: onHandleIntent action: com.google.android.gms.chimera.container.CONTAINER_UPDATED [CONTEXT service_id=333 ]
+10-19 17:12:34.737  5176  5268 I SemanticLocation: [Scheduler] Periodic Task com.google.android.gms.semanticlocationhistory.pulp.PulpInferenceService.PulpInference is scheduled to run EVERY_7_DAYS [CONTEXT service_id=173 ]
+10-19 17:12:34.738  5176  5268 I SemanticLocation: [Scheduler] Periodic Task com.google.android.gms.semanticlocationhistory.pulp.PulpMddDownloadScheduleService.PulpMddRefreshDownloadTask is scheduled to run EVERY_DAY [CONTEXT service_id=173 ]
+10-19 17:12:34.739  5176  5268 I SemanticLocation: [Scheduler] Periodic Task com.google.android.gms.semanticlocationhistory.pulp.PulpMddMaintenanceService.PulpMddMaintenanceTask is scheduled to run EVERY_DAY [CONTEXT service_id=173 ]
+10-19 17:12:34.740  5176  5268 I SemanticLocation: [Scheduler] Periodic Task com.google.android.gms.semanticlocationhistory.federated.FederatedScheduleService.FederatedLocation is scheduled to run EVERY_DAY [CONTEXT service_id=173 ]
+10-19 17:12:34.740  5176  5268 W GmsTaskScheduler: com.google.android.gms.semanticlocationhistory.federated.FederatedTaskIdentityDataService is not available. This may cause the task to be lost.
+10-19 17:12:34.741  5176  5268 I SemanticLocation: [Scheduler] Periodic Task com.google.android.gms.semanticlocationhistory.federated.FederatedTaskIdentityDataService.FederatedLocation is scheduled to run EVERY_DAY [CONTEXT service_id=173 ]
+10-19 17:12:34.741  5176  5268 W GmsTaskScheduler: com.google.android.gms.semanticlocationhistory.federated.FederatedJobHistoryService is not available. This may cause the task to be lost.
+10-19 17:12:34.741  5176  5268 I SemanticLocation: [Scheduler] Periodic Task com.google.android.gms.semanticlocationhistory.federated.FederatedJobHistoryService.FederatedLocation is scheduled to run EVERY_DAY [CONTEXT service_id=173 ]
+10-19 17:12:34.741  5176  5239 W Icing   : No valid account for uploading user actions
+10-19 17:12:34.746  5176  5268 I SemanticLocation: [Scheduler] Periodic Task com.google.android.gms.semanticlocationhistory.db.OdlhDatabaseCleanupJob.OdlhDatabaseCleanup is scheduled to run EVERY_DAY [CONTEXT service_id=173 ]
+10-19 17:12:34.747  5176  5268 I SemanticLocation: [Scheduler] Periodic Task com.google.android.gms.semanticlocationhistory.edit.EditMergeJob.EditMergeJob is scheduled to run EVERY_DAY [CONTEXT service_id=173 ]
+10-19 17:12:34.748  5176  5268 I SemanticLocation: [Scheduler] Periodic Task com.google.android.gms.semanticlocationhistory.edit.EditUploadJob.EditUploadJob is scheduled to run EVERY_DAY [CONTEXT service_id=173 ]
+10-19 17:12:34.752  5176  5277 I GmsDebugLogger: [73] 1801
+10-19 17:12:34.753  5176  5277 W ZappDownloader: No successful module downloads for requested features [tflite_dynamite, maps_core, mlkit.ocr.common, mlkit.barcode.ui, vision.ocr].
+10-19 17:12:34.754  5176  5268 I SemanticLocation: [Scheduler] Periodic Task com.google.android.gms.semanticlocationhistory.deidentifieddata.historicalbusyness.HistoricalBusynessProcessingService.HistoricalBusyness is scheduled to run EVERY_DAY [CONTEXT service_id=173 ]
+10-19 17:12:34.754  5176  5277 I GmsDebugLogger: [30] [VisionOcrDynamite.integ:231602402100000],[VisionBarcode.optional:231818100800],[TfliteDynamiteDynamite.integ:262730502100800],[MlkitOcrCommon.optional:231818100800],[MapsCoreDynamite.integ:231112103100800],[MlkitBarcodeUi.optional:231818100000]
+10-19 17:12:34.762  5176  5230 I Icing   : IndexChimeraService.getServiceInterface callingPackage=com.google.android.gms componentName=null serviceId=36
+10-19 17:12:34.765  5176  5277 I ChimeraConfigService: Scheduling checkin for one-off execution between [3300,43201] seconds from now (1792429954763) [CONTEXT service_id=264 ]
+10-19 17:12:34.766  5176  5287 I MlBenchmarkInstaller: Intent: com.google.android.gms.chimera.container.CONTAINER_UPDATED [CONTEXT service_id=340 ]
+10-19 17:12:34.768  5176  5277 I ChimeraConfigurator: Update complete: success
+10-19 17:12:34.769  5176  5268 I SemanticLocation: [Scheduler] Periodic Task com.google.android.gms.semanticlocationhistory.db.OdlhRemovedAccountsCleanupJob.OdlhRemovedAccountsCleanup is scheduled to run EVERY_DAY [CONTEXT service_id=173 ]
+10-19 17:12:34.770  5176  5268 I SemanticLocation: [Scheduler] Periodic Task com.google.android.gms.semanticlocationhistory.db.OdlhUserEditSyncJob.OdlhUserEditSync is scheduled to run EVERY_DAY [CONTEXT service_id=173 ]
+10-19 17:12:34.770  5176  5268 I SemanticLocation: [Scheduler] Periodic Task com.google.android.gms.semanticlocationhistory.federated.regionfetcher.RegionMddMaintenanceService.RegionMddMaintenanceTask is scheduled to run EVERY_DAY [CONTEXT service_id=173 ]
+10-19 17:12:34.770  5176  5268 I SemanticLocation: [Scheduler] Periodic Task com.google.android.gms.semanticlocationhistory.federated.regionfetcher.RegionMddDownloadScheduleService.RegionMddRefreshDownloadTask is scheduled to run EVERY_6_HOURS [CONTEXT service_id=173 ]
+10-19 17:12:34.770  5176  5284 I LocationHistory: [IntentOperation] Handling action com.google.android.gms.phenotype.COMMITTED [CONTEXT service_id=314 ]
+10-19 17:12:34.770  5176  5284 I LocationHistory: [IntentOperation] Handling action android.location.PROVIDERS_CHANGED [CONTEXT service_id=314 ]
+10-19 17:12:34.770  5176  5284 I LocationHistory: [IntentOperation] Device settings changed to ENABLED. Scheduling periodic tasks. [CONTEXT service_id=314 ]
+10-19 17:12:34.771  5176  5284 I SemanticLocation: [Scheduler] Periodic Task com.google.android.gms.semanticlocationhistory.deidentifieddata.storevisits.StoreVisitsProcessingService.StoreVisitsProcessing is scheduled to run EVERY_6_HOURS [CONTEXT service_id=173 ]
+10-19 17:12:34.771  5176  5284 I SemanticLocation: [Scheduler] Periodic Task com.google.android.gms.semanticlocationhistory.deidentifieddata.wifi.WifiPlaceVisitProcessingService.WifiPlaceVisit is scheduled to run EVERY_DAY [CONTEXT service_id=173 ]
+10-19 17:12:34.771  5176  5284 I SemanticLocation: [Scheduler] Periodic Task com.google.android.gms.semanticlocationhistory.deidentifieddata.uploads.BatchDeidentifiedDataUploadService.BatchDeidentifiedDataUpload is scheduled to run EVERY_6_HOURS [CONTEXT service_id=173 ]
+10-19 17:12:34.771  5176  5284 I SemanticLocation: [Scheduler] Periodic Task com.google.android.gms.semanticlocationhistory.geller.GellerCleanupService.GellerCleanup is scheduled to run EVERY_DAY [CONTEXT service_id=173 ]
+10-19 17:12:34.771  5176  5284 I SemanticLocation: [Scheduler] Periodic Task com.google.android.gms.semanticlocationhistory.settings.LocationHistoryActiveProcessingService.LocationHistoryActiveProcessing is scheduled to run EVERY_DAY [CONTEXT service_id=173 ]
+10-19 17:12:34.771  5176  5284 I SemanticLocation: [Scheduler] Periodic Task com.google.android.gms.semanticlocationhistory.pulp.PulpInferenceService.PulpInference is scheduled to run EVERY_7_DAYS [CONTEXT service_id=173 ]
+10-19 17:12:34.771  5176  5284 I SemanticLocation: [Scheduler] Periodic Task com.google.android.gms.semanticlocationhistory.pulp.PulpMddDownloadScheduleService.PulpMddRefreshDownloadTask is scheduled to run EVERY_DAY [CONTEXT service_id=173 ]
+10-19 17:12:34.771  5176  5284 I SemanticLocation: [Scheduler] Periodic Task com.google.android.gms.semanticlocationhistory.pulp.PulpMddMaintenanceService.PulpMddMaintenanceTask is scheduled to run EVERY_DAY [CONTEXT service_id=173 ]
+10-19 17:12:34.771  5176  5284 I SemanticLocation: [Scheduler] Periodic Task com.google.android.gms.semanticlocationhistory.federated.FederatedScheduleService.FederatedLocation is scheduled to run EVERY_DAY [CONTEXT service_id=173 ]
+10-19 17:12:34.771  5176  5284 W GmsTaskScheduler: com.google.android.gms.semanticlocationhistory.federated.FederatedTaskIdentityDataService is not available. This may cause the task to be lost.
+10-19 17:12:34.771  5176  5284 I SemanticLocation: [Scheduler] Periodic Task com.google.android.gms.semanticlocationhistory.federated.FederatedTaskIdentityDataService.FederatedLocation is scheduled to run EVERY_DAY [CONTEXT service_id=173 ]
+10-19 17:12:34.771  5176  5284 W GmsTaskScheduler: com.google.android.gms.semanticlocationhistory.federated.FederatedJobHistoryService is not available. This may cause the task to be lost.
+10-19 17:12:34.771  5176  5284 I SemanticLocation: [Scheduler] Periodic Task com.google.android.gms.semanticlocationhistory.federated.FederatedJobHistoryService.FederatedLocation is scheduled to run EVERY_DAY [CONTEXT service_id=173 ]
+10-19 17:12:34.771  5176  5284 I SemanticLocation: [Scheduler] Periodic Task com.google.android.gms.semanticlocationhistory.db.OdlhDatabaseCleanupJob.OdlhDatabaseCleanup is scheduled to run EVERY_DAY [CONTEXT service_id=173 ]
+10-19 17:12:34.771  5176  5284 I SemanticLocation: [Scheduler] Periodic Task com.google.android.gms.semanticlocationhistory.edit.EditMergeJob.EditMergeJob is scheduled to run EVERY_DAY [CONTEXT service_id=173 ]
+10-19 17:12:34.771  5176  5284 I SemanticLocation: [Scheduler] Periodic Task com.google.android.gms.semanticlocationhistory.edit.EditUploadJob.EditUploadJob is scheduled to run EVERY_DAY [CONTEXT service_id=173 ]
+10-19 17:12:34.771  5176  5284 I SemanticLocation: [Scheduler] Periodic Task com.google.android.gms.semanticlocationhistory.deidentifieddata.historicalbusyness.HistoricalBusynessProcessingService.HistoricalBusyness is scheduled to run EVERY_DAY [CONTEXT service_id=173 ]
+10-19 17:12:34.771  5176  5284 I SemanticLocation: [Scheduler] Periodic Task com.google.android.gms.semanticlocationhistory.db.OdlhRemovedAccountsCleanupJob.OdlhRemovedAccountsCleanup is scheduled to run EVERY_DAY [CONTEXT service_id=173 ]
+10-19 17:12:34.772  5176  5284 I SemanticLocation: [Scheduler] Periodic Task com.google.android.gms.semanticlocationhistory.db.OdlhUserEditSyncJob.OdlhUserEditSync is scheduled to run EVERY_DAY [CONTEXT service_id=173 ]
+10-19 17:12:34.772  5176  5284 I SemanticLocation: [Scheduler] Periodic Task com.google.android.gms.semanticlocationhistory.federated.regionfetcher.RegionMddMaintenanceService.RegionMddMaintenanceTask is scheduled to run EVERY_DAY [CONTEXT service_id=173 ]
+10-19 17:12:34.772  5176  5284 I SemanticLocation: [Scheduler] Periodic Task com.google.android.gms.semanticlocationhistory.federated.regionfetcher.RegionMddDownloadScheduleService.RegionMddRefreshDownloadTask is scheduled to run EVERY_6_HOURS [CONTEXT service_id=173 ]
+10-19 17:12:34.775  5082  5082 I NearbySharing: ReceiveSurfaceService started [CONTEXT service_id=194 ]
+10-19 17:12:34.776  5176  5287 I NearbySharing: Runtime state initialization complete. Sharing is enabled. [CONTEXT service_id=194 ]
+10-19 17:12:34.776  5176  5287 W libc    : Access denied finding property "ro.hardware.chipname"
+10-19 17:12:34.777  5176  5287 W ChipsetHelper: Unknown chipset! [CONTEXT service_id=301 ]
+10-19 17:12:34.777  5176  5287 I NnApiDriverManager: Registering application with chipset 'unknown' [CONTEXT service_id=301 ]
+10-19 17:12:34.790  5176  5287 D libEGL  : loaded /vendor/lib64/egl/libEGL_emulation.so
+10-19 17:12:34.794  5176  5230 I NearbySharing: onBindSlice failed since shareTargets is empty [CONTEXT service_id=194 ]
+10-19 17:12:34.795  5176  5230 I NearbySharing: Granted slice and Uri permissions to android [CONTEXT service_id=194 ]
+10-19 17:12:34.799  5176  5287 D libEGL  : loaded /vendor/lib64/egl/libGLESv1_CM_emulation.so
+10-19 17:12:34.801  5176  5287 D libEGL  : loaded /vendor/lib64/egl/libGLESv2_emulation.so
+10-19 17:12:34.819  5176  5277 I GmsModuleFndr: Beginning GMS chimera module scan
+10-19 17:12:34.824  5176  5277 I ModuleSetMgr: Computing pending module set with APKs: [[AdsFdrDynamite.integ:231004600100000], [Cronetdynamite:231818190800], [Dynamiteloader:231818190000], [Dynamitemodulesa:231818190000], [Dynamitemodulesc:231818190000], [Googlecertificates:231818190000], [Mapsdynamite:231818190000], [Measurementdynamite:231818190000]]
+10-19 17:12:34.827  5176  5239 I Icing   : Usage reports ok 0, Failed Usage reports 0, indexed 0, rejected 0
+10-19 17:12:34.840  5176  5239 W Icing   : No valid account for uploading user actions
+10-19 17:12:34.848  5176  5277 I ModuleSetMgr: Pending container module APKs: []
+10-19 17:12:34.848  5176  5277 I ModuleSetMgr: Pending non-container module APKs: []
+10-19 17:12:34.848  5176  5287 I NnApiDriverManager: Registering application with GPU 'Android Emulator OpenGL ES Translator (Google SwiftShader)' by 'Google (Google Inc.)' [CONTEXT service_id=301 ]
+10-19 17:12:34.858  5176  5277 W PackageParser: Unknown element under <manifest>: queries at /data/user_de/0/com.google.android.gms/app_chimera/m/00000000/AdsDynamite.apk Binary XML file line #15
+10-19 17:12:34.866  5176  5239 I Icing   : Usage reports ok 0, Failed Usage reports 0, indexed 0, rejected 0
+10-19 17:12:34.866  5176  5239 W Icing   : No valid account for uploading user actions
+10-19 17:12:34.872  5176  5277 W PackageParser: Unknown element under <manifest>: queries at /data/user_de/0/com.google.android.gms/app_chimera/m/00000004/DynamiteModulesC.apk Binary XML file line #15
+10-19 17:12:34.881  5176  5239 I Icing   : Usage reports ok 0, Failed Usage reports 0, indexed 0, rejected 0
+10-19 17:12:34.882  5176  5239 W Icing   : No valid account for uploading user actions
+10-19 17:12:34.898  5176  5239 I Icing   : Usage reports ok 0, Failed Usage reports 0, indexed 0, rejected 0
+10-19 17:12:34.899  5176  5239 W Icing   : No valid account for uploading user actions
+10-19 17:12:34.908  5176  5239 I Icing   : Usage reports ok 0, Failed Usage reports 0, indexed 0, rejected 0
+10-19 17:12:34.934  5176  5230 I Icing   : Query from package: com.google.android.gms, component: AppsCorpus, restrict package: com.google.android.gms, start: 0, num: 100
+10-19 17:12:34.985  5176  5277 I ChimeraCfgMgr: Updating module config: container:2318189190800 -> container:2318189190800
+10-19 17:12:34.986  5176  5277 E DowngradeHelper: isModuleDowngradeRequired false
+10-19 17:12:34.992   521  1899 D CompatibilityChangeReporter: Compat change id reported: 229362273; UID 10131; state: DISABLED
+10-19 17:12:34.992   521  1899 D CompatibilityChangeReporter: Compat change id reported: 229362273; UID 10131; state: ENABLED
+10-19 17:12:34.994  5176  5277 I GmsDebugLogger: [46] container:2318189190800
+10-19 17:12:34.995  5176  5277 I ChimeraConfigurator: Checking 1 listeners. All downloaded: false
+10-19 17:12:34.996  5176  5277 I GmsDebugLogger: [83] 1 [maps_core, mlkit.barcode.ui, mlkit.ocr.common, tflite_dynamite, vision.ocr]
+10-19 17:12:34.997  5176  5277 I ChimeraConfigService: Scheduling checkin every 120 seconds, with flex of 60 seconds [CONTEXT service_id=264 ]
+10-19 17:12:34.999  5176  5281 W gle.android.gms: Long monitor contention with owner [com.google.android.gms.chimera.container.intentoperation.GmsIntentOperationChimeraService-Executor] processing com.google.android.gms.chimera.container.InitConfigOperation for action com.google.android.gms.chimera.container.CONTAINER_UPDATED (5277) at void hjm.run()(:com.google.android.gms@231818047@23.18.18 (190800-535401451):3) waiters=0 in void hjm.run() for 367ms
+10-19 17:12:34.999  5176  5281 I ChimeraConfigurator: Starting update, reason: 4 urgentFeatures: tflite_dynamite:-1
+10-19 17:12:35.011  5176  5281 I ChimeraConfigurator: Detected pending changes for urgent request: [tflite_dynamite]. Pending module sets: container:2318189190800,tflite_dynamite:2627305025100800+tflite_dynamite
+10-19 17:12:35.019  5176  5281 I GmsDebugLogger: [73] 1801
+10-19 17:12:35.020  5176  5281 W ZappDownloader: No successful module downloads for requested features [tflite_dynamite].
+10-19 17:12:35.020  5176  5281 I GmsDebugLogger: [30] [TfliteDynamiteDynamite.integ:262730502100800]
+10-19 17:12:35.021   521   548 D CompatibilityChangeReporter: Compat change id reported: 135634846; UID 10131; state: DISABLED
+10-19 17:12:35.021   521   549 D CompatibilityChangeReporter: Compat change id reported: 143937733; UID 10131; state: ENABLED
+--------- beginning of kernel
+10-19 17:12:35.198     0     0 I binder  : 5281:5176 cannot find target node
+10-19 17:12:35.198     0     0 I binder  : 5176:5281 transaction async to 0:0 failed 400736/29189/-22, size 160-0 line 3210
+10-19 17:12:35.022  5176  5281 W ChimeraConfigService: Retry attempt was throttled. [CONTEXT service_id=264 ]
+10-19 17:12:35.022  5176  5281 I GmsDebugLogger: [83] 1 [tflite_dynamite]
+10-19 17:12:35.024  5176  5281 E IPCThreadState: Binder transaction failure: 400736/29189/-22
+10-19 17:12:35.024  5176  5281 E ChimeraUPLUtils: Failed to invoke updateComplete: android.os.DeadObjectException
+10-19 17:12:35.026   335   335 D Zygote  : Forked child process 5333
+10-19 17:12:35.027   521   549 I ActivityManager: Start proc 5333:com.google.android.gms.ui/u0a131 for service {com.google.android.gms/com.google.android.gms.chimera.UiIntentOperationService}
+10-19 17:12:35.031  5176  5281 I ChimeraConfigurator: Starting update, reason: 4 urgentFeatures: maps_core:-1
+10-19 17:12:35.043  5333  5333 I .android.gms.ui: Using CollectorTypeCC GC.
+10-19 17:12:35.043  5333  5333 W .android.gms.ui: Unexpected CPU variant for x86: x86_64.
+10-19 17:12:35.043  5333  5333 W .android.gms.ui: Known variants: atom, sandybridge, silvermont, goldmont, goldmont-plus, tremont, kabylake, default
+10-19 17:12:35.049  5176  5281 I ChimeraConfigurator: Detected pending changes for urgent request: [maps_core]. Pending module sets: container:2318189190800+maps_core
+10-19 17:12:35.056  5176  5281 I GmsDebugLogger: [73] 1801
+10-19 17:12:35.058  5333  5333 E .android.gms.ui: Not starting debugger since process cannot load the jdwp agent.
+10-19 17:12:35.059  5176  5281 W ZappDownloader: No successful module downloads for requested features [maps_core].
+10-19 17:12:35.059  5176  5281 I GmsDebugLogger: [30] [MapsCoreDynamite.integ:231112103100800]
+10-19 17:12:35.067  5176  5281 W ChimeraConfigService: Retry attempt was throttled. [CONTEXT service_id=264 ]
+10-19 17:12:35.068  5176  5281 I GmsDebugLogger: [83] 1 [maps_core]
+10-19 17:12:35.074  5176  5281 I ChimeraConfigurator: Starting update, reason: 4 urgentFeatures: mlkit.barcode.ui:0
+10-19 17:12:35.087  5176  5281 I ChimeraConfigurator: Detected pending changes for urgent request: [mlkit.barcode.ui]. Pending module sets: container:2318189190800+mlkit.barcode.ui+vision.barcode,tflite_dynamite:2627305025100800+tflite_dynamite
+10-19 17:12:35.088  5333  5333 D CompatibilityChangeReporter: Compat change id reported: 171979766; UID 10131; state: ENABLED
+10-19 17:12:35.088  5333  5333 D CompatibilityChangeReporter: Compat change id reported: 242716250; UID 10131; state: DISABLED
+10-19 17:12:35.091  5333  5333 D nativeloader: Configuring clns-6 for other apk /system/framework/org.apache.http.legacy.jar. target_sdk_version=33, uses_libraries=ALL, library_path=/product/priv-app/PrebuiltGmsCore/lib/x86_64:/product/priv-app/PrebuiltGmsCore/PrebuiltGmsCore.apk!/lib/x86_64, permitted_path=/data:/mnt/expand:/data/user/0/com.google.android.gms
+10-19 17:12:35.091  5333  5333 D nativeloader: Configuring clns-7 for other apk /system/framework/com.android.media.remotedisplay.jar. target_sdk_version=33, uses_libraries=ALL, library_path=/product/priv-app/PrebuiltGmsCore/lib/x86_64:/product/priv-app/PrebuiltGmsCore/PrebuiltGmsCore.apk!/lib/x86_64, permitted_path=/data:/mnt/expand:/data/user/0/com.google.android.gms
+10-19 17:12:35.092  5333  5333 D nativeloader: Configuring clns-8 for other apk /system/framework/com.android.location.provider.jar. target_sdk_version=33, uses_libraries=ALL, library_path=/product/priv-app/PrebuiltGmsCore/lib/x86_64:/product/priv-app/PrebuiltGmsCore/PrebuiltGmsCore.apk!/lib/x86_64, permitted_path=/data:/mnt/expand:/data/user/0/com.google.android.gms
+10-19 17:12:35.092  5333  5333 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.extensions.jar
+10-19 17:12:35.092  5333  5333 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.sidecar.jar
+10-19 17:12:35.094  5333  5333 D nativeloader: InitLlndkLibrariesProduct: libEGL.so:libGLESv1_CM.so:libGLESv2.so:libGLESv3.so:libRS.so:libandroid_net.so:libbinder_ndk.so:libc.so:libcgrouprc.so:libclang_rt.asan-x86_64-android.so:libcom.android.tethering.connectivity_native.so:libdl.so:libft2.so:liblog.so:libm.so:libmediandk.so:libnativewindow.so:libneuralnetworks.so:libselinux.so:libsync.so:libvndksupport.so:libvulkan.so
+10-19 17:12:35.094  5333  5333 D nativeloader: Configuring product-clns-9 for unbundled product apk /product/priv-app/PrebuiltGmsCore/PrebuiltGmsCore.apk. target_sdk_version=33, uses_libraries=, library_path=/product/priv-app/PrebuiltGmsCore/lib/x86_64:/product/priv-app/PrebuiltGmsCore/PrebuiltGmsCore.apk!/lib/x86_64:/product/lib64:/system/product/lib64, permitted_path=/data:/mnt/expand:/data/user/0/com.google.android.gms:/product/lib64:/system/product/lib64
+10-19 17:12:35.095  5333  5333 D nativeloader: InitVndkspLibrariesProduct: android.hardware.common-V2-ndk.so:android.hardware.common.fmq-V1-ndk.so:android.hardware.graphics.allocator-V2-ndk.so:android.hardware.graphics.common-V4-ndk.so:android.hardware.graphics.common@1.0.so:android.hardware.graphics.common@1.1.so:android.hardware.graphics.common@1.2.so:android.hardware.graphics.composer3-V1-ndk.so:android.hardware.graphics.mapper@2.0.so:android.hardware.graphics.mapper@2.1.so:android.hardware.graphics.mapper@3.0.so:android.hardware.graphics.mapper@4.0.so:android.hardware.renderscript@1.0.so:android.hidl.memory.token@1.0.so:android.hidl.memory@1.0-impl.so:android.hidl.memory@1.0.so:android.hidl.safe_union@1.0.so:libRSCpuRef.so:libRSDriver.so:libRS_internal.so:libbase.so:libbcinfo.so:libblas.so:libc++.so:libcompiler_rt.so:libcutils.so:libdmabufheap.so:libgralloctypes.so:libhardware.so:libhidlbase.so:libhidlmemory.so:libion.so:libjsoncpp.so:liblzma.so:libprocessgroup.so:libunwindstack.so:libutils.so:libutilscallstack.so:libz.so
+10-19 17:12:35.104  5176  5281 I GmsDebugLogger: [73] 1801
+10-19 17:12:35.107  5333  5333 V GraphicsEnvironment: Currently set values for:
+10-19 17:12:35.107  5333  5333 V GraphicsEnvironment:   angle_gl_driver_selection_pkgs=[]
+10-19 17:12:35.107  5333  5333 V GraphicsEnvironment:   angle_gl_driver_selection_values=[]
+10-19 17:12:35.107  5333  5333 V GraphicsEnvironment: ANGLE GameManagerService for com.google.android.gms: false
+10-19 17:12:35.107  5333  5333 V GraphicsEnvironment: com.google.android.gms is not listed in per-application setting
+10-19 17:12:35.107  5333  5333 V GraphicsEnvironment: Neither updatable production driver nor prerelease driver is supported.
+10-19 17:12:35.108  5176  5281 W ZappDownloader: No successful module downloads for requested features [mlkit.barcode.ui].
+10-19 17:12:35.109  5176  5281 I GmsDebugLogger: [30] [VisionBarcode.optional:231818100800],[TfliteDynamiteDynamite.integ:262730502100800],[MlkitBarcodeUi.optional:231818100000]
+10-19 17:12:35.114  5176  5281 W ChimeraConfigService: Retry attempt was throttled. [CONTEXT service_id=264 ]
+10-19 17:12:35.114  5176  5281 I GmsDebugLogger: [83] 1 [mlkit.barcode.ui]
+10-19 17:12:35.122  5176  5281 I ChimeraConfigurator: Starting update, reason: 4 urgentFeatures: tflite_dynamite:-1
+10-19 17:12:35.131  5333  5333 D CompatibilityChangeReporter: Compat change id reported: 160794467; UID 10131; state: ENABLED
+10-19 17:12:35.134  5333  5333 W ProviderHelper: Unknown dynamite feature providerinstaller.dynamite
+10-19 17:12:35.134  5333  5333 I DynamiteModule: Considering local module com.google.android.gms.providerinstaller.dynamite:1 and remote module com.google.android.gms.providerinstaller.dynamite:0
+10-19 17:12:35.134  5333  5333 I DynamiteModule: Selected local version of com.google.android.gms.providerinstaller.dynamite
+10-19 17:12:35.140  5333  5333 V NativeCrypto: Registering com/google/android/gms/org/conscrypt/NativeCrypto's 295 native methods...
+10-19 17:12:35.140  5176  5281 I ChimeraConfigurator: Detected pending changes for urgent request: [tflite_dynamite]. Pending module sets: container:2318189190800,tflite_dynamite:2627305025100800+tflite_dynamite
+10-19 17:12:35.148  5176  5281 I GmsDebugLogger: [73] 1801
+10-19 17:12:35.149  5333  5333 I ProviderInstaller: Installed default security provider GmsCore_OpenSSL
+10-19 17:12:35.150  5176  5281 W ZappDownloader: No successful module downloads for requested features [tflite_dynamite].
+10-19 17:12:35.150  5176  5281 I GmsDebugLogger: [30] [TfliteDynamiteDynamite.integ:262730502100800]
+10-19 17:12:35.152  5176  5281 W ChimeraConfigService: Retry attempt was throttled. [CONTEXT service_id=264 ]
+10-19 17:12:35.152  5176  5281 I GmsDebugLogger: [83] 1 [tflite_dynamite]
+10-19 17:12:35.330     0     0 I binder  : 5281:5176 cannot find target node
+10-19 17:12:35.331     0     0 I binder  : 5176:5281 transaction async to 0:0 failed 401945/29189/-22, size 160-0 line 3210
+10-19 17:12:35.157  5176  5281 E IPCThreadState: Binder transaction failure: 401945/29189/-22
+10-19 17:12:35.157  5176  5281 E ChimeraUPLUtils: Failed to invoke updateComplete: android.os.DeadObjectException
+10-19 17:12:35.160  5176  5281 I ChimeraConfigurator: Starting update, reason: 4 urgentFeatures: vision.ocr:-1
+10-19 17:12:35.162  5333  5360 I GMS_MM_Logger: Start time: 61741
+10-19 17:12:35.162  5333  5360 I GMS_MM_Logger: Started.
+10-19 17:12:35.164  5333  5333 D CompatibilityChangeReporter: Compat change id reported: 183155436; UID 10131; state: ENABLED
+10-19 17:12:35.164  5333  5333 I GmsApplication: [gms_startup_benchmark] Static start time (ms): 63436, Startup latency (ms): 56, Is system user: true
+10-19 17:12:35.164  5333  5333 I cuir    : Primes not initialized, returning default (no-op) Primes instance which will ignore all calls. Please call Primes.initialize(...) before using any Primes API.
+10-19 17:12:35.167   521  1675 I ActivityManager: Flag disabled. Ignoring finishAttachApplication from uid: 10131. pid: 5333
+10-19 17:12:35.190  5176  5281 I ChimeraConfigurator: Detected pending changes for urgent request: [vision.ocr]. Pending module sets: container:2318189190800+mlkit.ocr.common,tflite_dynamite:2627305025100800+tflite_dynamite,vision_ocr:2316024025100000+vision.ocr
+10-19 17:12:35.199  5176  5281 I GmsDebugLogger: [73] 1801
+10-19 17:12:35.202  5176  5281 W ZappDownloader: No successful module downloads for requested features [vision.ocr].
+10-19 17:12:35.202  5176  5281 I GmsDebugLogger: [30] [VisionOcrDynamite.integ:231602402100000],[TfliteDynamiteDynamite.integ:262730502100800],[MlkitOcrCommon.optional:231818100800]
+10-19 17:12:35.209  5176  5281 W ChimeraConfigService: Retry attempt was throttled. [CONTEXT service_id=264 ]
+10-19 17:12:35.209  5176  5281 I GmsDebugLogger: [83] 1 [vision.ocr]
+10-19 17:12:35.386     0     0 I binder  : 5281:5176 cannot find target node
+10-19 17:12:35.387     0     0 I binder  : 5176:5281 transaction async to 0:0 failed 402385/29189/-22, size 160-0 line 3210
+10-19 17:12:35.214  5176  5187 I gle.android.gms: Compiler allocated 4732KB to compile boolean zec.j(int, zdr, java.util.List, zeb)
+10-19 17:12:35.215  5176  5281 E IPCThreadState: Binder transaction failure: 402385/29189/-22
+10-19 17:12:35.215  5176  5281 E ChimeraUPLUtils: Failed to invoke updateComplete: android.os.DeadObjectException
+10-19 17:12:35.216  5176  5286 I ChimeraConfigurator: Starting update, reason: 4 urgentFeatures: tflite_dynamite:-1
+10-19 17:12:35.231  5176  5286 I ChimeraConfigurator: Detected pending changes for urgent request: [tflite_dynamite]. Pending module sets: container:2318189190800,tflite_dynamite:2627305025100800+tflite_dynamite
+10-19 17:12:35.235  5176  5286 I GmsDebugLogger: [73] 1801
+10-19 17:12:35.237  5176  5286 W ZappDownloader: No successful module downloads for requested features [tflite_dynamite].
+10-19 17:12:35.237  5176  5286 I GmsDebugLogger: [30] [TfliteDynamiteDynamite.integ:262730502100800]
+10-19 17:12:35.243  5176  5286 W ChimeraConfigService: Retry attempt was throttled. [CONTEXT service_id=264 ]
+10-19 17:12:35.243  5176  5286 I GmsDebugLogger: [83] 1 [tflite_dynamite]
+10-19 17:12:35.244  5176  5286 I ChimeraConfigurator: Starting update, reason: 4 urgentFeatures: vision.ocr:-1
+10-19 17:12:35.257  5176  5286 I ChimeraConfigurator: Detected pending changes for urgent request: [vision.ocr]. Pending module sets: container:2318189190800+mlkit.ocr.common,tflite_dynamite:2627305025100800+tflite_dynamite,vision_ocr:2316024025100000+vision.ocr
+10-19 17:12:35.262  5176  5286 I GmsDebugLogger: [73] 1801
+10-19 17:12:35.263  5176  5286 W ZappDownloader: No successful module downloads for requested features [vision.ocr].
+10-19 17:12:35.263  5176  5286 I GmsDebugLogger: [30] [VisionOcrDynamite.integ:231602402100000],[TfliteDynamiteDynamite.integ:262730502100800],[MlkitOcrCommon.optional:231818100800]
+10-19 17:12:35.264  5176  5286 W ChimeraConfigService: Retry attempt was throttled. [CONTEXT service_id=264 ]
+10-19 17:12:35.264  5176  5286 I GmsDebugLogger: [83] 1 [vision.ocr]
+10-19 17:12:35.265  5176  5279 W Vision  : Request for optional module download of ocr failed. Request again.
+10-19 17:12:35.265  5176  5279 W Vision  : Would have logged:
+10-19 17:12:35.265  5176  5279 W Vision  : # dsae@37884fe7
+10-19 17:12:35.266  5176  5279 I Vision  : Schedule retrying download ocr at 63593 with backoff 10 seconds
+10-19 17:12:35.828  1783  1783 I BgTaskExecutorImpl: Starting EXCLUSIVE background task UPLOAD_ASSISTANT_DEVICE_SETTINGS.
+10-19 17:12:35.830  1783  3043 W LocationOracle: getBestLocation(): no location is available
+10-19 17:12:35.830  1783  2633 I NetworkRecognitionRnr: Using pair HTTP connection
+10-19 17:12:35.832  1783  3044 I A       : [Upload] Connected
+10-19 17:12:35.833  1783  2291 W CronetNetworkRqstWrppr: Upload request without a content type.
+10-19 17:12:35.837  1783  2280 W LocationOracle: No location returned by GMS core getLastLocation()
+10-19 17:12:35.838  1783  3044 I NetworkRecognitionRnr: Using pair HTTP connection
+10-19 17:12:35.839  1783  3043 I A       : [Upload] Connected
+10-19 17:12:35.840  1783  2325 E cr_CronetUrlRequestContext: Exception in upload method
+10-19 17:12:35.840  1783  2325 E cr_CronetUrlRequestContext: com.google.android.apps.gsa.shared.r.d: Error code: 262182
+10-19 17:12:35.840  1783  2325 E cr_CronetUrlRequestContext: 	at com.google.android.apps.gsa.shared.ab.bk.d(PG:5)
+10-19 17:12:35.840  1783  2325 E cr_CronetUrlRequestContext: 	at com.google.android.libraries.gsa.c.a.ar.d(PG:1)
+10-19 17:12:35.840  1783  2325 E cr_CronetUrlRequestContext: 	at com.google.android.libraries.gsa.c.a.bo.b(PG:5)
+10-19 17:12:35.840  1783  2325 E cr_CronetUrlRequestContext: 	at com.google.android.libraries.gsa.c.a.e.a(PG:2)
+10-19 17:12:35.840  1783  2325 E cr_CronetUrlRequestContext: 	at com.google.android.libraries.gsa.c.a.a.run(PG:2)
+10-19 17:12:35.840  1783  2325 E cr_CronetUrlRequestContext: 	at com.google.common.util.concurrent.bf.execute(PG:1)
+10-19 17:12:35.840  1783  2325 E cr_CronetUrlRequestContext: 	at com.google.common.util.concurrent.d.i(PG:1)
+10-19 17:12:35.840  1783  2325 E cr_CronetUrlRequestContext: 	at com.google.common.util.concurrent.d.l(PG:12)
+10-19 17:12:35.840  1783  2325 E cr_CronetUrlRequestContext: 	at com.google.common.util.concurrent.d.cancel(PG:8)
+10-19 17:12:35.840  1783  2325 E cr_CronetUrlRequestContext: 	at com.google.common.util.concurrent.d.m(PG:2)
+10-19 17:12:35.840  1783  2325 E cr_CronetUrlRequestContext: 	at com.google.common.util.concurrent.j.a(PG:1)
+10-19 17:12:35.840  1783  2325 E cr_CronetUrlRequestContext: 	at com.google.common.util.concurrent.d.l(PG:3)
+10-19 17:12:35.840  1783  2325 E cr_CronetUrlRequestContext: 	at com.google.common.util.concurrent.d.cancel(PG:8)
+10-19 17:12:35.840  1783  2325 E cr_CronetUrlRequestContext: 	at com.google.common.util.concurrent.d.m(PG:2)
+10-19 17:12:35.840  1783  2325 E cr_CronetUrlRequestContext: 	at com.google.common.util.concurrent.j.a(PG:1)
+10-19 17:12:35.840  1783  2325 E cr_CronetUrlRequestContext: 	at com.google.common.util.concurrent.d.l(PG:3)
+10-19 17:12:35.840  1783  2325 E cr_CronetUrlRequestContext: 	at com.google.common.util.concurrent.d.cancel(PG:8)
+10-19 17:12:35.840  1783  2325 E cr_CronetUrlRequestContext: 	at com.google.common.util.concurrent.d.m(PG:2)
+10-19 17:12:35.840  1783  2325 E cr_CronetUrlRequestContext: 	at com.google.common.util.concurrent.j.a(PG:1)
+10-19 17:12:35.840  1783  2325 E cr_CronetUrlRequestContext: 	at com.google.common.util.concurrent.d.l(PG:3)
+10-19 17:12:35.840  1783  2325 E cr_CronetUrlRequestContext: 	at com.google.common.util.concurrent.d.cancel(PG:8)
+10-19 17:12:35.840  1783  2325 E cr_CronetUrlRequestContext: 	at com.google.common.util.concurrent.d.m(PG:2)
+10-19 17:12:35.840  1783  2325 E cr_CronetUrlRequestContext: 	at com.google.common.util.concurrent.j.a(PG:1)
+10-19 17:12:35.840  1783  2325 E cr_CronetUrlRequestContext: 	at com.google.common.util.concurrent.d.l(PG:3)
+10-19 17:12:35.840  1783  2325 E cr_CronetUrlRequestContext: 	at com.google.common.util.concurrent.d.cancel(PG:8)
+10-19 17:12:35.840  1783  2325 E cr_CronetUrlRequestContext: 	at com.google.common.util.concurrent.d.m(PG:2)
+10-19 17:12:35.840  1783  2325 E cr_CronetUrlRequestContext: 	at com.google.common.util.concurrent.c.a(PG:1)
+10-19 17:12:35.840  1783  2325 E cr_CronetUrlRequestContext: 	at com.google.common.util.concurrent.d.l(PG:3)
+10-19 17:12:35.840  1783  2325 E cr_CronetUrlRequestContext: 	at com.google.common.util.concurrent.d.cancel(PG:8)
+10-19 17:12:35.840  1783  2325 E cr_CronetUrlRequestContext: 	at com.google.common.util.concurrent.bu.cancel(PG:1)
+10-19 17:12:35.840  1783  2325 E cr_CronetUrlRequestContext: 	at com.google.common.util.concurrent.d.cancel(PG:17)
+10-19 17:12:35.840  1783  2325 E cr_CronetUrlRequestContext: 	at com.google.android.apps.gsa.staticplugins.bk.b.h.run(PG:2)
+10-19 17:12:35.840  1783  2325 E cr_CronetUrlRequestContext: 	at com.google.common.util.concurrent.bf.execute(PG:1)
+10-19 17:12:35.840  1783  2325 E cr_CronetUrlRequestContext: 	at com.google.common.util.concurrent.d.i(PG:1)
+10-19 17:12:35.840  1783  2325 E cr_CronetUrlRequestContext: 	at com.google.common.util.concurrent.d.l(PG:12)
+10-19 17:12:35.840  1783  2325 E cr_CronetUrlRequestContext: 	at com.google.common.util.concurrent.d.cancel(PG:8)
+10-19 17:12:35.840  1783  2325 E cr_CronetUrlRequestContext: 	at com.google.common.util.concurrent.d.m(PG:2)
+10-19 17:12:35.840  1783  2325 E cr_CronetUrlRequestContext: 	at com.google.common.util.concurrent.j.a(PG:1)
+10-19 17:12:35.840  1783  2325 E cr_CronetUrlRequestContext: 	at com.google.common.util.concurrent.d.l(PG:3)
+10-19 17:12:35.840  1783  2325 E cr_CronetUrlRequestContext: 	at com.google.common.util.concurrent.d.cancel(PG:8)
+10-19 17:12:35.840  1783  2325 E cr_CronetUrlRequestContext: 	at com.google.android.apps.gsa.shared.util.c.aj.a(PG:2)
+10-19 17:12:35.840  1783  2325 E cr_CronetUrlRequestContext: 	at com.google.common.util.concurrent.d.l(PG:3)
+10-19 17:12:35.840  1783  2325 E cr_CronetUrlRequestContext: 	at com.google.common.util.concurrent.d.cancel(PG:8)
+10-19 17:12:35.840  1783  2325 E cr_CronetUrlRequestContext: 	at com.google.common.util.concurrent.d.m(PG:2)
+10-19 17:12:35.840  1783  2325 E cr_CronetUrlRequestContext: 	at com.google.common.util.concurrent.c.a(PG:1)
+10-19 17:12:35.840  1783  2325 E cr_CronetUrlRequestContext: 	at com.google.common.util.concurrent.d.l(PG:3)
+10-19 17:12:35.840  1783  2325 E cr_CronetUrlRequestContext: 	at com.google.common.util.concurrent.d.cancel(PG:8)
+10-19 17:12:35.840  1783  2325 E cr_CronetUrlRequestContext: 	at com.google.android.apps.gsa.s3.o.c(PG:2)
+10-19 17:12:35.840  1783  2325 E cr_CronetUrlRequestContext: 	at com.google.android.apps.gsa.s3.r.a(PG:1)
+10-19 17:12:35.840  1783  2325 E cr_CronetUrlRequestContext: 	at com.google.android.apps.gsa.staticplugins.dc.a.c.e(PG:2)
+10-19 17:12:35.840  1783  2325 E cr_CronetUrlRequestContext: 	at com.google.android.apps.gsa.staticplugins.dc.a.c.c(PG:3)
+10-19 17:12:35.840  1783  2325 E cr_CronetUrlRequestContext: 	at com.google.android.apps.gsa.staticplugins.dc.a.e.a(PG:5)
+10-19 17:12:35.840  1783  2325 E cr_CronetUrlRequestContext: 	at com.google.android.apps.gsa.s3.n.hh(PG:1)
+10-19 17:12:35.840  1783  2325 E cr_CronetUrlRequestContext: 	at com.google.cd.g.a.f.e(PG:2)
+10-19 17:12:35.840  1783  2325 E cr_CronetUrlRequestContext: 	at com.google.android.apps.gsa.speech.k.a.g.d(PG:22)
+10-19 17:12:35.840  1783  2325 E cr_CronetUrlRequestContext: 	at com.google.android.apps.gsa.speech.k.a.g.ks(PG:6)
+10-19 17:12:35.840  1783  2325 E cr_CronetUrlRequestContext: 	at com.google.android.apps.gsa.s3.o.e(PG:14)
+10-19 17:12:35.840  1783  2325 E cr_CronetUrlRequestContext: 	at com.google.android.apps.gsa.s3.p.run(PG:1)
+10-19 17:12:35.840  1783  2325 E cr_CronetUrlRequestContext: 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:487)
+10-19 17:12:35.840  1783  2325 E cr_CronetUrlRequestContext: 	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+10-19 17:12:35.840  1783  2325 E cr_CronetUrlRequestContext: 	at com.google.android.apps.gsa.shared.util.c.a.e.run(PG:2)
+10-19 17:12:35.840  1783  2325 E cr_CronetUrlRequestContext: 	at com.google.android.apps.gsa.shared.util.c.a.bi.run(PG:1)
+10-19 17:12:35.840  1783  2325 E cr_CronetUrlRequestContext: 	at com.google.android.apps.gsa.shared.util.c.a.bi.run(PG:1)
+10-19 17:12:35.840  1783  2325 E cr_CronetUrlRequestContext: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+10-19 17:12:35.840  1783  2325 E cr_CronetUrlRequestContext: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+10-19 17:12:35.840  1783  2325 E cr_CronetUrlRequestContext: 	at java.lang.Thread.run(Thread.java:1012)
+10-19 17:12:35.840  1783  2325 E cr_CronetUrlRequestContext: 	at com.google.android.apps.gsa.shared.util.c.a.l.run(PG:5)
+10-19 17:12:35.841  1783  1783 E A       : onError
+10-19 17:12:35.841  1783  1783 E A       : com.google.android.apps.gsa.shared.speech.a.m: errorCode: 65561, engine: 2
+10-19 17:12:35.841  1783  1783 E A       : 	at com.google.android.apps.gsa.staticplugins.dc.a.e.a(PG:3)
+10-19 17:12:35.841  1783  1783 E A       : 	at com.google.android.apps.gsa.s3.n.hh(PG:1)
+10-19 17:12:35.841  1783  1783 E A       : 	at com.google.cd.g.a.f.e(PG:2)
+10-19 17:12:35.841  1783  1783 E A       : 	at com.google.android.apps.gsa.speech.k.a.g.d(PG:22)
+10-19 17:12:35.841  1783  1783 E A       : 	at com.google.android.apps.gsa.speech.k.a.g.ks(PG:6)
+10-19 17:12:35.841  1783  1783 E A       : 	at com.google.android.apps.gsa.s3.o.e(PG:14)
+10-19 17:12:35.841  1783  1783 E A       : 	at com.google.android.apps.gsa.s3.p.run(PG:1)
+10-19 17:12:35.841  1783  1783 E A       : 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:487)
+10-19 17:12:35.841  1783  1783 E A       : 	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+10-19 17:12:35.841  1783  1783 E A       : 	at com.google.android.apps.gsa.shared.util.c.a.e.run(PG:2)
+10-19 17:12:35.841  1783  1783 E A       : 	at com.google.android.apps.gsa.shared.util.c.a.bi.run(PG:1)
+10-19 17:12:35.841  1783  1783 E A       : 	at com.google.android.apps.gsa.shared.util.c.a.bi.run(PG:1)
+10-19 17:12:35.841  1783  1783 E A       : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+10-19 17:12:35.841  1783  1783 E A       : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+10-19 17:12:35.841  1783  1783 E A       : 	at java.lang.Thread.run(Thread.java:1012)
+10-19 17:12:35.841  1783  1783 E A       : 	at com.google.android.apps.gsa.shared.util.c.a.l.run(PG:5)
+10-19 17:12:35.841  1783  1783 E A       : Caused by: com.google.android.apps.gsa.shared.speech.a.o: errorCode: 65586, engine: 2
+10-19 17:12:35.841  1783  1783 E A       : 	... 15 more
+10-19 17:12:35.841  1783  1783 E A       : Caused by: com.google.android.apps.gsa.shared.speech.a.k: errorCode: 401, engine: 2
+10-19 17:12:35.841  1783  1783 E A       : 	at com.google.android.apps.gsa.assistant.shared.n.h.a(PG:5)
+10-19 17:12:35.841  1783  1783 E A       : 	at com.google.android.apps.gsa.s3.producers.j.hE(PG:2)
+10-19 17:12:35.841  1783  1783 E A       : 	at com.google.android.apps.gsa.speech.k.a.g.d(PG:16)
+10-19 17:12:35.841  1783  1783 E A       : 	... 12 more
+10-19 17:12:35.841  1783  1783 W A       : Failed to sync device settings.
+10-19 17:12:35.841  1783  1783 I A       : Retrying to sync device settings.
+10-19 17:12:35.844   521   907 W JobScheduler: Job didn't exist in JobStore: 9869aff #u0a132/-353 com.google.android.googlequicksearchbox/com.google.android.apps.gsa.tasks.BackgroundTasksJobService
+10-19 17:12:35.860  5082  5236 I Nearby  : is blocked device type false, isAuto=false, isIot=false, isLatchsky=false, isChinaWearable=false, isTv=false, isWearable=false (supportWearOs=false), isChromeOsDevice=false (supportChromeOs=false) [CONTEXT service_id=49 ]
+10-19 17:12:35.860  5082  5236 I NearbyDiscovery: DiscoveryController, showNotification, itemSize=0 [CONTEXT service_id=265 ]
+10-19 17:12:35.860  5082  5236 I NearbyDiscovery: Show notifications: 0 total, no changes since last shown, no-op. [CONTEXT service_id=265 ]
+10-19 17:12:35.861  5082  5163 I NearbyShared: FastPairSlice: enableBindServiceForDiscoveryItem called, isBind = false
+10-19 17:12:35.866  5176  5371 I FastPair: ServiceBindHelper.onSlicePinned, slice already pinned, uri = content://com.google.android.gms.nearby.fastpair/method_bind_service_for_discovery_item?is_bind=false
+10-19 17:12:35.938   521   602 D CompatibilityChangeReporter: Compat change id reported: 265195908; UID 10141; state: ENABLED
+10-19 17:12:35.952  5176  5239 I Icing   : Indexing com.google.android.gms-apps from com.google.android.gms
+10-19 17:12:35.958  5176  5239 I Icing   : Indexing done com.google.android.gms-apps
+10-19 17:12:36.372   521   907 W ProcessStats: Tracking association SourceState{bc6c88c com.google.android.gms/10131 BFgs #7749} whose proc state 4 is better than process ProcessState{d063bd5 android.process.acore/10085 pkg=com.android.providers.contacts (sub)} proc state 13 (63009 skipped)
+10-19 17:12:36.381  5082  5163 I AlarmManager: setExactAndAllowWhileIdle [name: GCM_HB_ALARM type: 2 triggerAtMillis: 594709]
+10-19 17:12:36.401  5082  5107 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.phenotype.service.sync.PhenotypeConfigurator started execution. cause:2 exec_start_elapsed_seconds: 64 [CONTEXT service_id=218 ]
+10-19 17:12:36.408  5082  5107 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.gcm.gmsproc.GcmInGmsTaskService started execution. cause:2 exec_start_elapsed_seconds: 64 [CONTEXT service_id=218 ]
+10-19 17:12:36.408  5176  5295 I GCM-GMS : Registering GMS for direct boot.
+10-19 17:12:36.419  5082  5163 I AlarmManager: setExactAndAllowWhileIdle [name: GCM_HB_ALARM type: 2 triggerAtMillis: 594747]
+10-19 17:12:36.420  5082  5107 D CompatibilityChangeReporter: Compat change id reported: 247079863; UID 10131; state: DISABLED
+10-19 17:12:36.424  5082  5163 I AlarmManager: setExactAndAllowWhileIdle [name: GCM_HB_ALARM type: 2 triggerAtMillis: 594752]
+10-19 17:12:36.425   334  5375 I resolv  : GetAddrInfoHandler::run: {100 786532 100 983140 10131 0}
+10-19 17:12:36.436   334  5376 I resolv  : res_nmkquery: (QUERY, IN, AAAA)
+10-19 17:12:36.436   334  5377 I resolv  : res_nmkquery: (QUERY, IN, A)
+10-19 17:12:36.436   334  5376 I resolv  : resolv_cache_lookup: FOUND IN CACHE entry=0x7a01bd193170
+10-19 17:12:36.436   334  5376 I resolv  : doQuery: rcode=0, ancount=5, return value=177
+10-19 17:12:36.436   334  5377 I resolv  : resolv_cache_lookup: FOUND IN CACHE entry=0x7a01bd1974d0
+10-19 17:12:36.436   334  5377 I resolv  : doQuery: rcode=0, ancount=7, return value=161
+10-19 17:12:36.437  5082  5107 D TrafficStats: tagSocket(154) with statsTag=0x30000407, statsUid=-1
+10-19 17:12:36.452  5082  5107 W Conscrypt: Could not set socket write timeout: java.net.SocketException: Socket closed
+10-19 17:12:36.452  5082  5107 W Conscrypt: 	at com.google.android.gms.org.conscrypt.Platform.setSocketWriteTimeout(:com.google.android.gms@231818047@23.18.18 (190800-535401451):2)
+10-19 17:12:36.452  5082  5107 W Conscrypt: 	at com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(:com.google.android.gms@231818047@23.18.18 (190800-535401451):0)
+10-19 17:12:36.515  5082  5116 I HeterodyneSyncScheduler: Scheduling Phenotype for a PhenotypeSyncImmediately(7, com.google.android.platform.runtime_native_boot) one off with window [1, 2] in seconds [CONTEXT service_id=51 ]
+10-19 17:12:36.609  5082  5107 W Conscrypt: Could not set socket write timeout: java.net.SocketException: Socket closed
+10-19 17:12:36.609  5082  5107 W Conscrypt: 	at com.google.android.gms.org.conscrypt.Platform.setSocketWriteTimeout(:com.google.android.gms@231818047@23.18.18 (190800-535401451):2)
+10-19 17:12:36.609  5082  5107 W Conscrypt: 	at com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(:com.google.android.gms@231818047@23.18.18 (190800-535401451):0)
+10-19 17:12:36.683  5176  5295 I GCM-GMS : Got GMS direct boot token.
+10-19 17:12:36.686  5082  5107 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.gcm.gmsproc.GcmInGmsTaskService finished executing. cause:2 result: 1 elapsed_millis: 289 uptime_millis: 289 exec_start_elapsed_seconds: 64 [CONTEXT service_id=218 ]
+10-19 17:12:36.764   521   609 D ActivityManager: freezing 3432 com.google.android.onetimeinitializer
+10-19 17:12:37.193   334   334 I netd    : setProcSysNet(4, 2, wlan0, retrans_time_ms, 750) <0.10ms>
+10-19 17:12:37.193   334   334 I netd    : setProcSysNet(4, 2, wlan0, ucast_solicit, 10) <0.01ms>
+10-19 17:12:37.194   334   334 I netd    : setProcSysNet(6, 2, wlan0, retrans_time_ms, 750) <0.03ms>
+10-19 17:12:37.194   334   334 I netd    : setProcSysNet(6, 2, wlan0, ucast_solicit, 10) <0.01ms>
+10-19 17:12:37.369  5082  5082 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.semanticlocation.service.START_ODLH pkg=com.google.android.gms }
+10-19 17:12:37.370  5176  5176 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.wallet.service.BIND pkg=com.google.android.gms }
+10-19 17:12:37.372  5176  5176 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.pay.service.BIND dat=chimera-action:/... cmp=com.google.android.gms/.chimera.GmsApiService }
+10-19 17:12:37.452  5384  5384 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+10-19 17:12:37.452  5384  5384 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+10-19 17:12:37.457   133   133 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+10-19 17:12:37.458  5384  5385 I Gralloc4: mapper 4.x is not supported
+10-19 17:12:37.631     0     0 I servicemanager: Could not find android.hardware.graphics.allocator.IAllocator/default in the VINTF manifest.
