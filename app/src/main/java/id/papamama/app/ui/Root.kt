@@ -147,24 +147,19 @@ fun PapaMamaRoot(intents: StateFlow<Intent?>, consumeIntent: () -> Unit) {
     }
 
     // --- Lembar (bottom sheet) ---------------------------------------------------------
-    buyFor?.let { id ->
-        val line = data.lines.find { it.id == id }
-        if (line == null) buyFor = null
-        else BuySheet(
-            line, data,
+    val buyLine = buyFor?.let { id -> data.lines.find { it.id == id } }
+    if (buyLine != null) {
+        BuySheet(
+            buyLine, data,
             onDismiss = { buyFor = null },
-            onLaunched = { awaitingReturn = line.id; buyFor = null },
-            onRecord = { buyFor = null; recordFor = line.id },
+            onLaunched = { awaitingReturn = buyLine.id; buyFor = null },
+            onRecord = { buyFor = null; recordFor = buyLine.id },
         )
     }
-    recordFor?.let { id ->
-        val line = data.lines.find { it.id == id }
-        if (line == null) recordFor = null else RecordSheet(line, data) { recordFor = null }
-    }
-    updateFor?.let { id ->
-        val line = data.lines.find { it.id == id }
-        if (line == null) updateFor = null else UpdateSheet(line, data, updatePrefill) { updateFor = null; updatePrefill = "" }
-    }
+    val recordLine = recordFor?.let { id -> data.lines.find { it.id == id } }
+    if (recordLine != null) RecordSheet(recordLine, data) { recordFor = null }
+    val updateLine = updateFor?.let { id -> data.lines.find { it.id == id } }
+    if (updateLine != null) UpdateSheet(updateLine, data, updatePrefill) { updateFor = null; updatePrefill = "" }
     pickMode?.let { mode ->
         PickLineSheet(
             data,
@@ -174,14 +169,13 @@ fun PapaMamaRoot(intents: StateFlow<Intent?>, consumeIntent: () -> Unit) {
             onDismiss = { pickMode = null; if (mode == PickMode.SHARE) updatePrefill = "" },
         )
     }
-    askRecordFor?.let { id ->
-        val line = data.lines.find { it.id == id }
-        if (line == null) askRecordFor = null
-        else AlertDialog(
+    val askLine = askRecordFor?.let { id -> data.lines.find { it.id == id } }
+    if (askLine != null) {
+        AlertDialog(
             onDismissRequest = { askRecordFor = null },
-            title = { Text("Sudah beli untuk ${line.displayName}?") },
+            title = { Text("Sudah beli untuk ${askLine.displayName}?") },
             text = { Text("Catat paketnya sekarang supaya kuota dan masa aktif langsung terhitung. Cukup 2 ketukan.") },
-            confirmButton = { TextButton(onClick = { askRecordFor = null; recordFor = id }) { Text("Ya, catat") } },
+            confirmButton = { TextButton(onClick = { askRecordFor = null; recordFor = askLine.id }) { Text("Ya, catat") } },
             dismissButton = { TextButton(onClick = { askRecordFor = null }) { Text("Belum") } },
         )
     }
