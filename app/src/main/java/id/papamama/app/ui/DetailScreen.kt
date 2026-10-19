@@ -61,6 +61,7 @@ import id.papamama.app.core.Notifier
 import id.papamama.app.core.Reporter
 import id.papamama.app.core.StatusEngine
 import id.papamama.app.core.has
+import id.papamama.app.core.declares
 import id.papamama.app.data.Store
 import id.papamama.app.model.Line
 import id.papamama.app.model.Phone
@@ -218,7 +219,7 @@ fun DetailScreen(
                 }
                 if (line.isLocal) {
                     ToggleRow("Cek otomatis", "Tiap ${settings.checkHours} jam lewat USSD, tanpa buka apa pun", line.autoCheck) { v -> Store.edit(line.id) { it.copy(autoCheck = v) } }
-                    ToggleRow(
+                    if (ctx.declares(Manifest.permission.SEND_SMS)) ToggleRow(
                         "Mode Pelapor",
                         if (line.reportTo.isBlank()) "Kirim status nomor ini ke HP orang tua lewat SMS (maks. ±1 SMS/hari)"
                         else "Aktif → ${Phone.pretty(line.reportTo)}" + (if (line.lastReportAt > 0) " · terakhir ${Fmt.ago(line.lastReportAt)}" else ""),

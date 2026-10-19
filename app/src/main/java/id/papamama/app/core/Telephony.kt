@@ -27,6 +27,13 @@ import kotlinx.coroutines.suspendCancellableCoroutine
 import kotlinx.coroutines.withTimeoutOrNull
 import kotlin.coroutines.resume
 
+/** Apakah izin ini dideklarasikan di manifest build ini (build tanpa SMS tidak mendeklarasikannya). */
+fun Context.declares(perm: String): Boolean = runCatching {
+    val pi = if (Build.VERSION.SDK_INT >= 33) packageManager.getPackageInfo(packageName, android.content.pm.PackageManager.PackageInfoFlags.of(android.content.pm.PackageManager.GET_PERMISSIONS.toLong()))
+    else @Suppress("DEPRECATION") packageManager.getPackageInfo(packageName, android.content.pm.PackageManager.GET_PERMISSIONS)
+    pi.requestedPermissions?.contains(perm) == true
+}.getOrDefault(false)
+
 fun Context.has(perm: String): Boolean =
     ContextCompat.checkSelfPermission(this, perm) == PackageManager.PERMISSION_GRANTED
 

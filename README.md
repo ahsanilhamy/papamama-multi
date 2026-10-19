@@ -46,6 +46,8 @@ Fitur *Watch Offline* di deck PapaMama asli membutuhkan data jaringan operator a
 - Tidak ada data lokasi atau isi pesan anak yang diambil.
 - SMS yang dibaca hanya SMS dari pengirim operator (nama atau kode pendek) dan laporan berformat `#PM#` yang **berasal dari nomor itu sendiri**.
 
+> **Catatan build:** build ini **tidak meminta izin SMS** (RECEIVE_SMS/SEND_SMS) karena Google Play Protect memblokir aplikasi sideload dengan izin tersebut ("App blocked to protect your device"). Akibatnya **Mode Pelapor** dan pembacaan SMS otomatis dinonaktifkan; gunakan **Tempel teks** atau **Bagikan → PapaMama**.
+
 ## Izin yang dipakai (semua opsional)
 
 | Izin | Untuk |

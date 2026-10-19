@@ -7,10 +7,9 @@
     <uses-permission android:name="android.permission.CALL_PHONE" />
     <!-- Membaca daftar SIM di HP ini -->
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
-    <!-- Membaca SMS info kuota dari operator & laporan dari HP keluarga -->
-    <uses-permission android:name="android.permission.RECEIVE_SMS" />
-    <!-- Mode Pelapor: kirim status nomor ini ke HP orang tua -->
-    <uses-permission android:name="android.permission.SEND_SMS" />
+    <!-- Izin SMS (RECEIVE_SMS/SEND_SMS) sengaja TIDAK dideklarasikan di build ini:
+         Google Play Protect memblokir aplikasi sideload yang meminta izin SMS.
+         Membaca info operator memakai "Tempel teks" / "Bagikan -> PapaMama". -->
     <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
 
     <queries>
@@ -68,13 +67,5 @@
             </intent-filter>
         </activity>
 
-        <receiver
-            android:name=".core.SmsReceiver"
-            android:exported="true"
-            android:permission="android.permission.BROADCAST_SMS">
-            <intent-filter android:priority="999">
-                <action android:name="android.provider.Telephony.SMS_RECEIVED" />
-            </intent-filter>
-        </receiver>
     </application>
 </manifest>

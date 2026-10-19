@@ -48,6 +48,7 @@ import id.papamama.app.core.Codes
 import id.papamama.app.core.Fmt
 import id.papamama.app.core.Notifier
 import id.papamama.app.core.has
+import id.papamama.app.core.declares
 import id.papamama.app.data.Demo
 import id.papamama.app.data.Store
 import id.papamama.app.model.Operator
@@ -109,8 +110,8 @@ fun SettingsScreen(settings: Settings, onBack: () -> Unit) {
                         if (Build.VERSION.SDK_INT >= 33) add(Triple("Notifikasi", "Peringatan kuota & masa aktif", Manifest.permission.POST_NOTIFICATIONS))
                         add(Triple("Telepon", "Cek otomatis via USSD & buka menu paket", Manifest.permission.CALL_PHONE))
                         add(Triple("Status telepon", "Mengenali SIM di HP ini", Manifest.permission.READ_PHONE_STATE))
-                        add(Triple("Terima SMS", "Membaca SMS info kuota & laporan keluarga", Manifest.permission.RECEIVE_SMS))
-                        add(Triple("Kirim SMS", "Hanya untuk Mode Pelapor", Manifest.permission.SEND_SMS))
+                        if (ctx.declares(Manifest.permission.RECEIVE_SMS)) add(Triple("Terima SMS", "Membaca SMS info kuota & laporan keluarga", Manifest.permission.RECEIVE_SMS))
+                        if (ctx.declares(Manifest.permission.SEND_SMS)) add(Triple("Kirim SMS", "Hanya untuk Mode Pelapor", Manifest.permission.SEND_SMS))
                     }
                     items.forEach { (title, sub, p) ->
                         val ok = ctx.has(p)
