@@ -2,7 +2,15 @@ name: Build APK
 
 on:
   push:
+    branches: [main]
   workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: build-${{ github.ref }}
+  cancel-in-progress: true
 
 jobs:
   build:
@@ -23,6 +31,20 @@ jobs:
         with:
           name: PapaMama-apk
           path: PapaMama.apk
+      - name: Publish release (unduh langsung dari HP)
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release delete latest -y --cleanup-tag || true
+          gh release create latest PapaMama.apk --target "${{ github.sha }}" \
+            --title "PapaMama Multi-Operator (build ${{ github.run_number }})" \
+            --notes "Unduh **PapaMama.apk** di bawah ini langsung dari HP Android, lalu buka untuk memasang. Build otomatis dari commit ${{ github.sha }}."
+      - name: Push APK to builds branch
+        run: |
+          mkdir pub && cp PapaMama.apk pub/ && cd pub
+          git init -q && git checkout -q -b builds && git add .
+          git -c user.name=ci -c user.email=ci@users.noreply.github.com commit -qm "APK build ${{ github.run_number }}"
+          git push -qf "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}" builds
       - uses: actions/upload-artifact@v4
         if: always()
         with:
@@ -78,3 +100,10 @@ jobs:
         with:
           name: screenshots
           path: shots/
+      - name: Push screenshots to builds branch
+        if: always()
+        run: |
+          git clone -q --depth 1 -b builds "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}" pub
+          mkdir -p pub/screenshots && cp shots/* pub/screenshots/ || true
+          cd pub && git add . && git -c user.name=ci -c user.email=ci@users.noreply.github.com commit -qm "Screenshots build ${{ github.run_number }}" || true
+          git push -q origin builds
