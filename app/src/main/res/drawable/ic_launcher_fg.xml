@@ -1,0 +1,15 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp" android:height="108dp"
+    android:viewportWidth="108" android:viewportHeight="108">
+    <!-- orang tua -->
+    <path android:fillColor="#FFFFFF" android:pathData="M37,43a9,9 0 1,0 18,0a9,9 0 1,0 -18,0z" />
+    <path android:fillColor="#FFFFFF" android:pathData="M31,72c0,-9.5 6.5,-16 15,-16s15,6.5 15,16z" />
+    <!-- anak -->
+    <path android:fillColor="#FFD45C" android:pathData="M59,52a7,7 0 1,0 14,0a7,7 0 1,0 -14,0z" />
+    <path android:fillColor="#FFD45C" android:pathData="M55,74c0,-7.5 4.8,-12.5 11,-12.5s11,5 11,12.5z" />
+    <!-- sinyal -->
+    <path android:fillColor="#00000000" android:strokeColor="#FFD45C" android:strokeWidth="2.6"
+        android:strokeLineCap="round" android:pathData="M66,38a8,8 0 0,1 8,8" />
+    <path android:fillColor="#00000000" android:strokeColor="#FFD45C" android:strokeWidth="2.6"
+        android:strokeLineCap="round" android:pathData="M66,31a15,15 0 0,1 15,15" />
+</vector>
