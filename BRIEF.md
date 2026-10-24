@@ -1,0 +1,1 @@
+Ini BRIEF saya: saya punya masalah dalam memonitor paket data nomor anak saya yang ada 2 dan sering kelewat masa aktif. Saya butuh apps yang bisa membantu saya seperti papamama yang pernah kita buat tapi go live dan gak manual update. Ajukan 5–10 pertanyaan yang jawabannya mengubah cara app ini dibangun. Tanya satu per satu, tunggu jawaban saya.
